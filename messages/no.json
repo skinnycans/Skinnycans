@@ -1,0 +1,26 @@
+{
+  "Index": {
+    "title": "Ceci est un modèle de démarrage de développement web moderne qui intègre Next.js, Tailwind CSS, ShadcnUI et des fonctionnalités d'internationalisation, conçu pour construire rapidement des projets front-end efficaces, personnalisables et multilingues.",
+    "collection": "Kolleksjon",
+    "collection_heading": "SKINNY SELECTION",
+    "collection_description": "En drikk uten sukker. Uten oppblåsthet. Uten konsekvenser.",
+    "soda-one": "Hard limonade",
+    "year-one": "år",
+    "soda-two": "Harde bær",
+    "year-two": "år",
+    "discover": "oppdag",
+    "skinny_story": "den tynne historien",
+    "full_story": "les hele historien",
+    "event": "arrangement",
+    "event_heading": "Skal det skje et arrangement i nærheten av oss?",
+    "event_description": "La oss gjøre det uforglemmelig – samarbeid med Skinny Cans for en frisk og livlig opplevelse.",
+    "contact_us": "KONTAKT OSS",
+    "moments": "Slurker og øyeblikk",
+    "moments_heading": "Gode tider, bedre bokser",
+    "moments_footer": "Velvære i hver slurk",
+    "waitlist": "Spre den slanke livsstilen",
+    "waitlist_heading": "Bli distributør",
+    "waitlist_description": "Bli med på vårt oppdrag om å gjøre alkohol sunnere, én kan om gangen.",
+    "join_waitlist": "MELD DEG PÅ VENTELISTEN"
+  }
+}

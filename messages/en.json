@@ -1,0 +1,26 @@
+{
+  "Index": {
+    "title": "This is a modern web development starter template that integrates Next.js, Tailwind CSS, ShadcnUI, and internationalization features, designed for quickly building efficient, customizable, and multilingual front-end projects.",
+    "collection": "Collection",
+    "collection_heading": "SKINNY SELECTION",
+    "collection_description": "A drink without sugar. Without bloat. Without consequences.",
+    "soda-one": "Hard lemonade",
+    "year-one": "year ",
+    "soda-two": "Hard BERRIES",
+    "year-two": "year",
+    "discover": "discover",
+    "skinny_story": "the skinny story",
+    "full_story": "read the full story",
+    "event": "event",
+    "event_heading": "Event happening near us?",
+    "event_description": "Let’s make it unforgettable — partner with Skinny Cans for a fresh, vibrant experience.",
+    "contact_us": "CONTACT US",
+    "moments": "Sips & Moments",
+    "moments_heading": "Good Times, Better Cans",
+    "moments_footer": "Wellness in every sip",
+    "waitlist": "Spread the Skinny Lifestyle",
+    "waitlist_heading": "Become a distributor",
+    "waitlist_description": "Join our mission to make alcohol healthier, one can at a time.",
+    "join_waitlist": "JOIN THE WAITLIST"
+  }
+}
