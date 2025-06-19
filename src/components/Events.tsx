@@ -37,7 +37,13 @@ export default function Events() {
               className="h-full w-full object-cover object-center"
             />
             <div className="relative h-full w-full bg-white">
-              <VideoPlayer src="/Event.mp4" autoPlay={false} muted loop />
+              <VideoPlayer
+                src="/Event.mp4"
+                poster="/poster.jpg"
+                autoPlay={false}
+                muted
+                loop
+              />
             </div>
           </div>
           <div className="md:col-span-2">
