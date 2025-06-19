@@ -19,7 +19,7 @@ export default function IndexPage({
   const t = useTranslations('Index')
   const siteConfig = getSiteConfig(locale)
   return (
-    <main className="container mx-auto overflow-hidden">
+    <main className="mx-auto max-w-screen-2xl overflow-hidden">
       <BannerCarousel {...siteConfig} />
       <Collections />
       <SkinnyStory />
