@@ -23,7 +23,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
     <header className="sticky top-0 z-50 w-screen overflow-hidden bg-white">
       <nav>
         {/* Top Nav */}
-        <section className="container border-b border-[#E6E6E6] py-2">
+        <section className="container py-2">
           <div className="relative flex min-h-16 w-full items-center justify-between md:px-12">
             {/* Language or Mobile Menu Button */}
             <div className="flex items-center gap-4">
@@ -73,7 +73,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             </div>
           </div>
         </section>
-
+        <div className="border-b border-[#E6E6E6]" />
         {/* Main Nav */}
         <section>
           <ul className="hidden items-center justify-center gap-24 border-b border-[#E6E6E6] py-6 lg:flex">
