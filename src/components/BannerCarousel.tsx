@@ -30,7 +30,7 @@ export default function BannerCarousel(tran: SiteConfig) {
 
   const flowerSets = [
     { left: SlideOneFlowerLeft, right: SlideOneFlowerRight },
-    { left: SlideTwoFlowerLeft, right: SlideTwoFlowerRight },
+    { left: SlideTwoFlowerLeft, right: SlideOneFlowerRight },
     { left: SlideThreeFlowerLeft, right: SlideThreeFlowerRight },
   ]
 

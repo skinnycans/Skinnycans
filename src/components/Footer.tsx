@@ -89,7 +89,7 @@ export default function Footer({ locale }: SiteHeaderProps) {
                 {siteConfig.footer.rights}
               </p>
             </div>
-            <LanguageSelector locale={locale} width={''} />
+            <LanguageSelector locale={locale} width={'w-fit'} />
           </div>
         </div>
       </div>
