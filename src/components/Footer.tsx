@@ -25,11 +25,11 @@ export default function Footer({ locale }: SiteHeaderProps) {
             src={Awards}
             alt="Awards"
             sizes="100%"
-            className="h-14 w-auto"
+            className="mx-auto h-14 w-auto lg:mx-0"
           />
         </div>
         <div className="text-center md:col-span-2 md:text-start lg:col-span-1">
-          <ul className="flex flex-col items-center justify-center gap-3 md:flex-row md:justify-start md:gap-10">
+          <ul className="flex flex-col items-center justify-center gap-3 md:flex-row md:justify-start md:gap-12">
             {siteConfig.mainNav.map((items, index) => (
               <li key={index} className="shrink-0">
                 <Link

@@ -19,9 +19,9 @@ export default function Moments() {
         alt="Flower Background"
         sizes="100%"
         fill
-        className="h-full w-full object-cover object-top opacity-40 md:opacity-100"
+        className="h-full w-full object-cover object-bottom opacity-40 md:opacity-100"
       />
-      <div className="container relative z-10 space-y-4 pb-20 text-primary md:space-y-5">
+      <div className="container relative z-10 space-y-4 pb-32 text-primary md:space-y-5">
         <div className="relative w-fit after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-7 after:rounded-full after:bg-primary">
           <p className="text-xs uppercase md:text-sm lg:text-base">
             {t('moments')}

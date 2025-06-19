@@ -1,6 +1,6 @@
 import { Locale } from '@/i18n'
 
-type SiteConfig = {
+export type SiteConfig = {
   name: string
   description: string
   mainNav: { title: string; href: string }[]
@@ -18,6 +18,11 @@ type SiteConfig = {
   }
   menu: string
   close: string
+  brewed: string
+  backed: string
+  built: string
+  banner_description: string
+  button_banner: string
 }
 
 const siteConfigBase: Record<Locale, SiteConfig> = {
@@ -57,6 +62,11 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     follow: 'Follow us',
     menu: 'menu',
     close: 'close',
+    brewed: `Brewed\nby hand`,
+    backed: 'Backed by\n science ',
+    built: 'Built for\n health',
+    banner_description: 'Skinny is here to change drinking for good.',
+    button_banner: 'Read The Full Story',
   },
   no: {
     name: 'NSIT',
@@ -94,6 +104,11 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     follow: 'Følg oss',
     menu: 'meny',
     close: 'lukk',
+    brewed: 'Håndbrygget',
+    backed: 'Støttet av\n vitenskapen',
+    built: 'Bygget for \nhelse',
+    banner_description: 'Skinny er her for å forandre drikking for godt.',
+    button_banner: 'Les hele historien',
   },
   se: {
     name: 'NSIT',
@@ -131,8 +146,12 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     follow: 'Čuovo min',
     menu: 'meny',
     close: 'lahka',
+    brewed: 'Gieđain \nráhkaduvvon',
+    backed: 'Dieđalaš \ndoarjja',
+    built: 'Huksejuvvon \ndearvvašvuođa várás',
+    banner_description: 'Skinny lea dáppe rievdadeamen juhkanvuođa buorrin.',
+    button_banner: 'Loga olles muitalusa',
   },
-
 }
 
 export function getSiteConfig(locale: Locale): SiteConfig {

@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 import { getSiteConfig } from '@/config/site-i18n'
 import { useTranslations } from 'next-intl'
 import { unstable_setRequestLocale } from 'next-intl/server'
@@ -9,6 +7,7 @@ import SkinnyStory from '@/components/SkinnyStory'
 import Events from '@/components/Events'
 import Moments from '@/components/Moments'
 import Waitlist from '@/components/Waitlist'
+import CarouselContent from '@/components/CarouselContent'
 
 export default function IndexPage({
   params: { locale },
@@ -20,8 +19,8 @@ export default function IndexPage({
   const t = useTranslations('Index')
   const siteConfig = getSiteConfig(locale)
   return (
-    <main className='w-screen'>
-      <BannerCarousel />
+    <main className="w-screen overflow-hidden">
+      <BannerCarousel {...siteConfig} />
       <Collections />
       <SkinnyStory />
       <Events />

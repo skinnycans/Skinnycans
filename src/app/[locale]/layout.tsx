@@ -1,6 +1,6 @@
 import '@/styles/globals.css'
 import { Metadata } from 'next'
-import { Amiri, Varela_Round } from "next/font/google";
+import { Amiri, Varela_Round } from 'next/font/google'
 import { Locale, locales } from '@/i18n'
 import { unstable_setRequestLocale } from 'next-intl/server'
 
@@ -8,21 +8,21 @@ import { getSiteConfig } from '@/config/site-i18n'
 import { cn } from '@/lib/utils'
 import { SiteHeader } from '@/components/site-header'
 import { NextIntlClientProvider } from 'next-intl'
-import Footer from '@/components/Footer';
+import Footer from '@/components/Footer'
 
 const amiri = Amiri({
-  variable: "--font-amiri",
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
-});
+  variable: '--font-amiri',
+  subsets: ['latin'],
+  display: 'swap',
+  weight: '400',
+})
 
 const varelaRound = Varela_Round({
-  variable: "--font-varela-round",
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
-});
+  variable: '--font-varela-round',
+  subsets: ['latin'],
+  display: 'swap',
+  weight: '400',
+})
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -51,11 +51,20 @@ export type PageProps = Readonly<{
   params: { locale: Locale }
 }>
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params: { locale },
 }: PageProps) {
   unstable_setRequestLocale(locale)
+
+  let messages
+  try {
+    messages = (await import(`@/locales/${locale}.json`)).default
+  } catch (error) {
+    console.error(`Missing translation file for locale: ${locale}`)
+    messages = {} // fallback to empty messages or handle 404
+  }
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <head />
@@ -68,10 +77,10 @@ export default function RootLayout({
       >
         <div className="relative flex min-h-screen flex-col">
           <SiteHeader locale={locale} />
-          <NextIntlClientProvider locale={locale}>
+          <NextIntlClientProvider locale={locale} messages={messages}>
             <div className="flex-1">{children}</div>
-            <Footer locale={locale} />
           </NextIntlClientProvider>
+          <Footer locale={locale} />
         </div>
       </body>
     </html>
