@@ -7,6 +7,7 @@ import { Icons } from './icons'
 
 import EventFlower1 from '@/assets/event-flower-1.svg'
 import EventFlower2 from '@/assets/event-flower-2.svg'
+import VideoPlayer from './Player'
 
 export default function Events() {
   const t = useTranslations('Index')
@@ -27,7 +28,7 @@ export default function Events() {
       />
       <div className="container relative z-10 py-28 md:py-48">
         <div className="grid items-center gap-8 md:grid-cols-5 lg:gap-16">
-          <div className="relative h-[450px] p-4 md:col-span-3">
+          <div className="relative h-[300px] p-2 md:col-span-3 md:h-[400px] md:p-4 lg:h-[450px]">
             <Image
               src={VideoBg}
               alt="Video Background"
@@ -35,7 +36,9 @@ export default function Events() {
               sizes="100%"
               className="h-full w-full object-cover object-center"
             />
-            <div className="relative h-full w-full bg-white"></div>
+            <div className="relative h-full w-full bg-white">
+              <VideoPlayer src="/Event.mp4" autoPlay={false} muted loop />
+            </div>
           </div>
           <div className="md:col-span-2">
             <section className="space-y-4 text-left font-varela tracking-wider text-primary">
