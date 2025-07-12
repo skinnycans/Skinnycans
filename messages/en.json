@@ -4,22 +4,122 @@
     "collection_heading": "SKINNY SELECTION",
     "collection_description": "A drink without sugar. Without bloat. Without consequences.",
     "soda-one": "Hard lemonade",
-    "year-one": "year ",
+    "year": "2018",
+    "year_two": "year",
     "soda-two": "Hard BERRIES",
-    "year-two": "year",
     "discover": "discover",
     "skinny_story": "the skinny story",
     "full_story": "read the full story",
-    "event": "event",
-    "event_heading": "Event happening near us?",
-    "event_description": "Let’s make it unforgettable — partner with Skinny Cans for a fresh, vibrant experience.",
+    "event_heading": "Home brewed. Designed to be healthier. Joy without regret. Just like it should be. Cheers!",
     "contact_us": "CONTACT US",
-    "moments": "Sips & Moments",
+    "moments": "Designed for the way we live today",
     "moments_heading": "Good Times, Better Cans",
     "moments_footer": "Wellness in every sip",
     "waitlist": "Spread the Skinny Lifestyle",
-    "waitlist_heading": "Become a distributor",
+    "waitlist_heading": "Become partner",
     "waitlist_description": "Join our mission to make alcohol healthier, one can at a time.",
-    "join_waitlist": "JOIN THE WAITLIST"
+    "join_waitlist": "JOIN THE WAITLIST",
+    "product_overview": "DRINK SMARTER with skinny consequences",
+    "product_overview_call_to_action": "View Products",
+    "product_overview_benefits": [
+      "ORGANIC",
+      "SUGAR-FREE",
+      "ALLERGEN-FREE",
+      "HANGOVER-FREE",
+      "4% ALC | 57 KCAL"
+    ],
+    "product_overview_head": "A LI'L ALCOHOL WITH ONLY GOOD STUFF",
+    "mission": "we are on a mission",
+    "mission_heading": "MAKE ALCOHOL HEALTHIER",
+    "smart_drinking_title": "Smarter drinking",
+    "smart_drinking_tagline": "For those who invest in better choices.",
+    "smart_drinking_subtext": "Today’s Three-Fold Problem\nWhat you drink matters more than you think.",
+    "alcohol_heading": "Alcohol → Inflammation",
+    "alcohol_facts": [
+      "Puts huge stress on your organs",
+      "Slows down your metabolism",
+      "One ready-to-drink cocktail has 3x more alcohol than necessary"
+    ],
+    "sugar_heading": "Sugar → Fat",
+    "sugar_facts": [
+      "Your liver turns extra sugar into fat – just like it does with alcohol",
+      "One RTD cocktail has 5x more sugar than recommended",
+      "Often contains harmful artificial sweeteners"
+    ],
+    "calories_heading": "Calories → Metabolic Disorders",
+    "calories_facts": [
+      "Extra calories lead to weight gain and health issues",
+      "One RTD cocktail has as many calories as a hamburger lunch!"
+    ],
+    "result_heading": "The result:",
+    "result_text": "A market full of unhealthy choices that can cause\ninflammation, weight gain, and long-term health problems.",
+    "stat_facts": [
+      {
+        "percent": "70%",
+        "text": "of adults want healthier alcohol options."
+      },
+      {
+        "percent": "80%",
+        "text": "of adults don’t know what they’re drinking."
+      },
+      {
+        "percent": "100%",
+        "text": "of these adults deserve better choices."
+      }
+    ]
+  },
+
+  "hard_lemonade": {
+    "product": "Hard Lemonade",
+    "product_intro_title": "Crisp. Vibrant. Fresh.",
+    "product_intro_description": "Crafted with the world’s finest lemons — hand-picked from the sun-drenched groves of Sicily in southern Italy. A crisp, vibrant citrus profile with the natural sweetness and mouthfeel of real cane sugar — sweetened only with pure stevia leaf from South America and naturally fermented erythritol.",
+    "product_intro_blend": "Blended with high-quality organic vodka. Perfectly balanced — refreshingly light, yet indulgent.",
+    "product_highlights": [
+      "4% alcohol",
+      "100% sugar-free",
+      "Allergen-free",
+      "Vegan-friendly",
+      "Only 57 calories per can",
+      "Gives no hangover"
+    ],
+    "find_reseller": "Find reseller"
+  },
+
+  "hard_berries": {
+    "product": "hard berries",
+    "product_intro_title": "Juicy. Bold. Sophisticated.",
+    "product_intro_description": "An exclusive blend of berries — hand-selected from the sun-drenched fields of Barcelona to the rich, fertile soils of Sicily. A deep, juicy product profile with the natural sweetness and mouthfeel of real cane sugar — sweetened only with pure stevia leaf from South America and naturally fermented erythritol.",
+    "product_intro_blend": "Blended with high-quality organic vodka. Perfectly balanced — refreshingly light, yet indulgent.",
+    "product_highlights": [
+      "4% alcohol",
+      "100% sugar-free",
+      "Allergen-free",
+      "Vegan-friendly",
+      "Only 57 calories per can",
+      "Gives no hangover"
+    ],
+    "find_reseller": "Find reseller"
+  },
+
+  "Story": {
+    "skinny_consequences": "Skinny Consequences",
+    "skinny_story": "The Skinny Story",
+    "skinny_story_tagline": "Brewed by hand. Born out of frustration. Built for freedom.",
+
+    "story_heading": "The Story",
+    "story_intro": "The revolution didn’t start in a lab – it started at the bar. In a smoky California bar in the 90s, a group of women asked for something unheard of: A drink without sugar. Without bloat. Without consequences.",
+    "story_origin": "The bartender mixed vodka, soda and lime.\n “The Skinny Bitch,” they joked.",
+    "story_alek_intro": "Years later in Norway, Alek – a war veteran, paramedic, and fitness and health nerd – was staring at a wall of unhealthy drinks: sugar bombs in disguise, with labels full of lies.",
+    "story_brewing": "So he did what rebels do. He brewed his own.",
+    "story_by_hand": "By hand. In his kitchen. Can by can.",
+    "story_on_no_sugar": "A drink with no sugar, no crash, no hangover.\n Just clean, natural ingredients – and a taste people came back for. The goal wasn’t to drink more – it was to drink smarter.",
+    "story_naming": "He called it Skinny Bitch. And the world judged hard.\n People were offended. Outraged. Loud.",
+    "story_truth": "But here’s the truth they never saw:\n It was never about looks. It was about less harm.\n More fun. Smarter choices.",
+    "story_by_consequence": "It was about Skinny Consequences.",
+    "story_evolution": "The hate got louder – but the love got stronger.\n So we dropped the name they couldn’t handle.",
+    "story_regret": "And kept what mattered:\n The rebellion. The recipe. The right to enjoy – without regret.",
+    "story_today": "Today, we’re Skinny.",
+    "story_tagline": "For the ones who dance all night and train at dawn. For the ones who want health without boring. For the ones who live loud and live light.",
+    "story_footer": "Skinny Cans\nHome brewed. Designed to be healthier.\n Joy without regret. Just like it should be.\n Cheers!"
   }
 }

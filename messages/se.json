@@ -4,22 +4,121 @@
     "collection_heading": "SKINNY SELECTION",
     "collection_description": "Juhkan mas ii leat sohkar. Buozalmasvuođa haga. Váikkuhusaid haga.",
     "soda-one": "Garra limonada",
-    "year-one": "jahki",
+    "year": "2018",
+    "year_two": "jahki",
     "soda-two": "Garra MUORRAT",
-    "year-two": "jahki",
     "discover": "gávdnat",
     "skinny_story": "smávva muitalus",
     "full_story": "loga olles ášši",
-    "event": "dáhpáhus",
-    "event_heading": "Dáhpáhus dáhpáhuvvá min lahka?",
-    "event_description": "Daga dan unohassan — ovttasbargat Skinny Cansain vai oaččut ođđa ja ealli vásáhusa.",
+    "event_heading": "Ruovttus ráhkaduvvon. Hábmejuvvon nu ahte lea dearvvašlaš. Illu šállošeami haga. Juste nu mo galggašii leat. Máistte!",
     "contact_us": "VÁLDDE OKTAVUOĐA",
-    "moments": "Sips & Moments",
+    "moments": "Jurddašuvvon dan vuohkái mo mii eallit otná beaivvi",
     "moments_heading": "Buorit áiggit, buoret kánske",
     "moments_footer": "Buresbirgejupmi juohke njuoskkas",
     "waitlist": "Leavvan Skinny Lifestyle",
-    "waitlist_heading": "Šaddá juohkin",
+    "waitlist_heading": "Šaddá ovttasbargoguoibmin",
     "waitlist_description": "Searvva min mihttomearrái dahkat alkohola dearvvašlažžan, okta sáhttá oktanaga.",
-    "join_waitlist": "SEARVÁ VUORDINLISTTUI"
+    "join_waitlist": "SEARVÁ VUORDINLISTTUI",
+    "product_overview": "JUOGA ČÁBBÁT mas leat smávva váikkuhusat",
+    "product_overview_call_to_action": "Geahča buktagiid",
+    "product_overview_benefits": [
+      "ORGANIHKKA",
+      "SOHKKÁRIHKKA",
+      "ALLEGENÁHKKÁ",
+      "HANGOVER-FREE",
+      "4% ALC | 57 KCAL"
+    ],
+    "product_overview_head": "UNNA ALKOHOLLA MAS LEAT DUŠŠE BUORIT ÁVDNASAT",
+    "mission": "mii leat miššuvnnas",
+    "mission_heading": "DÁHKAT ALKOHOLA DEARVVALAŠ",
+    "smart_drinking_title": "Smarter drinking",
+    "smart_drinking_tagline": "Sidjiide geat investerejit buoret válljemiidda.",
+    "smart_drinking_subtext": "Otná golmmalágan váttisvuohta\nMii don juhkat lea deháleabbo go jurddašat.",
+    "alcohol_heading": "Alkohola → Buozalmasvuohta",
+    "alcohol_facts": [
+      "Bidjá stuorra streassa du orgánaide",
+      "Hehtte du metabolismma",
+      "Ovtta gárvves juhkamušas lea 3x eanet alkohola go dárbbašlaš"
+    ],
+    "sugar_heading": "Sugar → Fat",
+    "sugar_facts": [
+      "Du njuoratmánná rievdada liige sohkkara čáhcái – nugo alkoholain",
+      "Okta RTD-cocktailas lea 5x eanet sohkar go ávžžuhuvvon",
+      "Dávjá sisdoallá vahágahtti artifisála sohkarávdnasiid"
+    ],
+    "calories_heading": "Kaloriijat → Metabolalaš rievdadusat",
+    "calories_facts": [
+      "Ekstra kaloriijat dagahit deattu lassáneami ja dearvvašvuođaváttisvuođaid",
+      "Okta RTD-cocktailas leat seamma ollu kaloriijat go hamburgerlunššas!"
+    ],
+    "result_heading": "Boađus:",
+    "result_text": "Márkan mas leat eahpedearvvašlaš válljemat mat sáhttet dagahit\nbuozalmasvuođa, deattu lassáneami ja guhkesáigásaš dearvvašvuođaváttisvuođaid.",
+    "stat_facts": [
+      {
+        "percent": "70%",
+        "text": "rávisolbmot háliidit dearvvašlaš alkoholaválljemiid."
+      },
+      {
+        "percent": "80%",
+        "text": "rávisolbmot eai dieđe maid sii juhket."
+      },
+      {
+        "percent": "100%",
+        "text": "dáin rávisolbmuin ánssášit buoret válljemiid."
+      }
+    ]
+  },
+
+  "hard_lemonade": {
+    "product": "Gárvves limonada",
+    "product_intro_title": "Crisp. Vibrant. Fresh.",
+    "product_intro_description": "Ráhkaduvvon máilmmi buoremus sitruvnnain — gieđaiguin válljejuvvon beaivváščuovggas Sicilias Davvi-Itálias. Čuovga, ealli sitrusprofiila mas lea lunddolaš smákku ja njálmmi dovdu duohta njuovvansohkkariin — smáhkkaduvvon dušše buhtes stevia-lávkkiin Davvi-Amerihkás ja lunddolaš šaddošlájain.",
+    "product_intro_blend": "Seaguhuvvon alla kvalitehta luomu vodkain. Áibbas dássedis — ođasmahtti liegga, muhto liikká čáppa.",
+    "product_highlights": [
+      "4% alkohola",
+      "100% sohkarkeahtes",
+      "Allergenakeahtes",
+      "Vegan-guoskevaš",
+      "Dušše 57 kaloriija juohke kánske",
+      "Ii atte givssideami"
+    ],
+    "find_reseller": "Gávnnat viidáset vuovdi"
+  },
+
+  "hard_berries": {
+    "product": "garra bierggut",
+    "product_intro_title": "Juicy. Bold. Sophisticated.",
+    "product_intro_description": "Eksklusiiva seaguhus biergguin — gieđaiguin válljejuvvon Barcelona beaivvášgoahtán eatnamiin gitta Sicilia rikkis, šaddolaš eatnamiidda. Dievva, čáhppes buvttaprofiila mas lea lunddolaš smávvavuohta ja njálmmi dovdu duohta njuovvansohkkariin — mii lea smáhkkaduvvon dušše buhtes stevialávkkiin ja lunddolaš šaddošlájain mat bohtet Davvi-Amerihkás.",
+    "product_intro_blend": "Seaguhuvvon alla kvalitehta luomu vodkain. Áibbas dássedis — ođasmahtti liegga, muhto liikká čáppa.",
+    "product_highlights": [
+      "4% alkohola",
+      "100% sohkarkeahtes",
+      "Allergenakeahtes",
+      "Vegan-guoskevaš",
+      "Dušše 57 kaloriija juohke kánske",
+      "Ii atte givssideami"
+    ],
+    "find_reseller": "Gávnnat viidáset vuovdi"
+  },
+
+  "Story": {
+    "skinny_consequences": "Skinny Consequences",
+    "skinny_story": "The Skinny Story",
+    "skinny_story_tagline": "Bráhkaduvvon gieđaiguin. Riegádan balddihahttivuođas. Huksejuvvon friddjavuođa ovdii.",
+    "story_heading": "Muitalus",
+    "story_intro": "Revolušuvdna ii álgán laboratoriijas – dat álggii báris. 90-logus muhtin čáhppes California báras bivddii muhtin nissonjoavku juoidá maid ii lean gullon: Juoga mas ii lean sohkar. Ii lean čalbmebuohcuvuohta. Ii lean váikkuhusat.",
+    "story_origin": "Bargi seaguhii vodka, soda ja lime.\n “The Skinny Bitch,” sii čálle.",
+    "story_alek_intro": "Jagiid maŋŋá Norggas lei Alek – soahteveterána, heahteveahkki ja hárjehallan- ja dearvvašvuođaberošteaddji – geahččamin seinni mas ledje eahpedearvvašlaš juhkamušat: sohkarbombbat mat ledje čihkkojuvvon, ja merkejumit ledje gokčojuvvon čuoččuhusain.",
+    "story_brewing": "Nu ahte son dagai dan maid vuostálastit dahket. Son ráhkadii iežas.",
+    "story_by_hand": "Gieđain. Su kjøkkenis. Kánske kánske.",
+    "story_on_no_sugar": "Juhkan mas ii leat sohkar, ii leat gahččan, ii leat givssideapmi.\n Dušše buhtes, lunddolaš ávdnasat – ja dakkár smákku maid olbmot máhcce. Mihttomearrin ii lean juhkat eanet – muhto juhkat čeahpibut.",
+    "story_naming": "Son gohčodii dan Skinny Bitch. Ja máilbmi árvvoštalai garrasit.\n Olbmot ledje hirpmástuvvan. Šállošan. Garra.",
+    "story_truth": "Muhto dá lea duohtavuohta maid eai goassege oaidnán:\n Dat ii lean goassege čalmmiid birra. Dat lei unnit vahága birra.\n Eambbo somá. Čeahpibut válljemat.",
+    "story_by_consequence": "Dat lei Skinny Consequences birra.",
+    "story_evolution": "Viha šattai garraseabbon – muhto ráhkisvuohta šattai garraseabbon.\n Nu ahte mii heaittiheimmet dan nama maid sii eai nagodan gierdat.",
+    "story_regret": "Ja doalahii dan mii lei dehálaš:\n Opprøret. Resepta. Vuoigatvuohta návddašit – šállošeami haga.",
+    "story_today": "Odne, mii leat Skinny.",
+    "story_tagline": "Didjiide geat dánsejit olles ija ja hárjehallet čuovganeapmái. Sidjiide geat háliidit dearvvašvuođa almmá givssideami haga. Sidjiide geat ellet garrasit ja ellet lieggasit.",
+    "story_footer": "Skinny Cans\nHome brewed. Designed nu ahte lea dearvvašlaš.\n Joy almmá šállošeami haga. Juste nu mo galggašii leat.\n Cheers!"
   }
 }

@@ -27,9 +27,8 @@ export type SiteConfig = {
 
 const siteConfigBase: Record<Locale, SiteConfig> = {
   en: {
-    name: 'NSIT',
-    description:
-      'This is a modern web development starter template that integrates Next.js, Tailwind CSS, ShadcnUI, and internationalization features, designed for quickly building efficient, customizable, and multilingual front-end projects.',
+    name: 'Skinny Cans',
+    description: 'A new era of alcohol — clean, conscious, and crafted.',
     mainNav: [
       {
         title: 'Home',
@@ -40,12 +39,12 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/product',
       },
       {
-        title: 'Partner',
-        href: '/partner',
-      },
-      {
         title: 'The Story',
         href: '/story',
+      },
+      {
+        title: 'Partner',
+        href: '/partner',
       },
     ],
     links: {
@@ -69,9 +68,8 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     button_banner: 'Read The Full Story',
   },
   no: {
-    name: 'NSIT',
-    description:
-      '这是一个集成了Next.js、Tailwind CSS、ShadcnUI和国际化功能的现代化Web开发启动模板，旨在快速搭建高效、可定制且多语言支持的前端项目。',
+    name: 'Tynne bokser',
+    description: 'En ny æra med alkohol – ren, bevisst og håndlaget.',
     mainNav: [
       {
         title: 'hjem',
@@ -82,12 +80,12 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/product',
       },
       {
-        title: 'Partner',
-        href: '/partner',
-      },
-      {
         title: 'historien',
         href: '/story',
+      },
+      {
+        title: 'Partner',
+        href: '/partner',
       },
     ],
     links: {
@@ -111,9 +109,8 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     button_banner: 'Les hele historien',
   },
   se: {
-    name: 'NSIT',
-    description:
-      "Ceci est un modèle de démarrage de développement web moderne qui intègre Next.js, Tailwind CSS, ShadcnUI et des fonctionnalités d'internationalisation, conçu pour construire rapidement des projets front-end efficaces, personnalisables et multilingues.",
+    name: 'Skinny Cans',
+    description: 'Ođđa áigodat alkoholas — buhtis, diđolaš ja hábmejuvvon.',
     mainNav: [
       {
         title: 'ruoktu',
@@ -124,12 +121,12 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/product',
       },
       {
-        title: 'guoibmi',
-        href: '/partner',
-      },
-      {
         title: 'muitalus',
         href: '/story',
+      },
+      {
+        title: 'guoibmi',
+        href: '/partner',
       },
     ],
     links: {

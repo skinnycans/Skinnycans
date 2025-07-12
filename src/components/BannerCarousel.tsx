@@ -38,10 +38,10 @@ export default function BannerCarousel(tran: SiteConfig) {
     if (activeBg !== prevBg) {
       setPrevBg(activeBg)
     }
-  }, [activeBg])
+  }, [activeBg, prevBg])
 
   return (
-    <div className="container py-20 md:py-28 ">
+    <div className="container py-20 md:pt-28 ">
       <div className="relative mx-auto w-full max-w-[270px] md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
         {/* 🪻 BACKGROUND FLOWERS */}
         <AnimatePresence mode="wait">

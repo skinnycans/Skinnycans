@@ -18,13 +18,13 @@ const sliderImages: CarouselItem[] = [
     btn: 'button_banner',
   },
   {
-    src: require('@/assets/slider-bg-two.svg'),
+    src: require('@/assets/slider-bg-two.png'),
     heading: 'backed',
     description: 'banner_description',
     btn: 'button_banner',
   },
   {
-    src: require('@/assets/slider-bg-three.svg'),
+    src: require('@/assets/slider-bg-three.png'),
     heading: 'built',
     description: 'banner_description',
     btn: 'button_banner',

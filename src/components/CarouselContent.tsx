@@ -66,7 +66,7 @@ export default function CarouselContent({
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.6 }}
-          className="flex items-center justify-center gap-2 bg-[#F1F1F1] px-4 py-3 text-xs uppercase tracking-wider text-primary md:px-8 lg:text-base xl:text-lg"
+          className="flex items-center justify-center gap-2 bg-[#F1F1F1] px-4 py-3 text-xs uppercase tracking-wider text-primary transition-colors duration-300 hover:bg-primary hover:text-white md:px-8 lg:text-base xl:text-lg"
         >
           {translation[cont.btn]} <Icons.rightArrow className="h-5 w-5" />
         </motion.button>

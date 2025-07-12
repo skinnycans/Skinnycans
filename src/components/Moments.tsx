@@ -1,11 +1,11 @@
 import { useTranslations } from 'next-intl'
 import React from 'react'
 
-import Moment1 from '@/assets/moments/moment_one.webp'
-import Moment2 from '@/assets/moments/moment_two.webp'
-import Moment3 from '@/assets/moments/moment_three.webp'
-import Moment4 from '@/assets/moments/moment_four.webp'
-import Moment5 from '@/assets/moments/moment_five.webp'
+import Moment1 from '@/assets/moments/moment_one.png'
+import Moment2 from '@/assets/moments/moment_two.png'
+import Moment3 from '@/assets/moments/moment_three.png'
+import Moment4 from '@/assets/moments/moment_four.png'
+import Moment5 from '@/assets/moments/moment_five.png'
 import MomentsBg from '@/assets/moments/moments_bg.svg'
 import Image from 'next/image'
 
@@ -13,7 +13,7 @@ export default function Moments() {
   const t = useTranslations('Index')
 
   return (
-    <div className="container relative max-w-screen-2xl">
+    <div className="container relative mt-10 md:mt-16 xl:mt-32">
       <Image
         src={MomentsBg}
         alt="Flower Background"
@@ -21,16 +21,16 @@ export default function Moments() {
         fill
         className="h-full w-full object-cover object-top opacity-40 md:opacity-100"
       />
-      <div className="container relative z-10 space-y-4 pb-32 text-primary md:space-y-5">
+      <div className="relative z-10 space-y-4 pb-32 text-primary md:space-y-5 lg:space-y-7">
         <div className="relative w-fit after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-7 after:rounded-full after:bg-primary">
-          <p className="text-xs uppercase md:text-sm lg:text-base">
+          <p className="font-varela text-xs uppercase tracking-wide md:text-sm lg:text-base">
             {t('moments')}
           </p>
         </div>
-        <h2 className="font-amiri text-2xl uppercase md:text-3xl lg:text-4xl">
+        <h2 className="font-amiri text-2xl uppercase md:text-3xl lg:text-5xl">
           {t('moments_heading')}
         </h2>
-        <div className="grid items-center gap-5 md:grid-cols-12">
+        <div className="grid items-center gap-5 pt-4 md:grid-cols-12 lg:pt-10">
           <div className="md:col-span-5">
             <Image
               src={Moment1}
@@ -75,7 +75,7 @@ export default function Moments() {
               sizes="100%"
               className="h-auto w-full"
             />
-            <p className="mt-10 text-right font-varela text-sm uppercase">
+            <p className="mt-10 text-right font-varela text-sm uppercase tracking-wide">
               {t('moments_footer')}
             </p>
           </div>
