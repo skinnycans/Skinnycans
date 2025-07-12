@@ -6,7 +6,7 @@ export function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'no' }, { locale: 'se' }]
 }
 
-export default function page() {
+export default function StoryPage() {
   return (
     <main>
       <StoryBanner />
