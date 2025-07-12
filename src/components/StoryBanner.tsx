@@ -7,7 +7,7 @@ import { Icons } from './icons'
 import Link from 'next/link'
 
 export default function StoryBanner() {
-  const t = useTranslations('Story')
+  const t = useTranslations('Stories')
 
   return (
     <div className="relative flex items-center justify-center pb-28 pt-48 lg:py-72 lg:pb-60">
