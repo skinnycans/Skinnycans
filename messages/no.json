@@ -66,15 +66,13 @@
         "percent": "100 %",
         "text": "av disse voksne fortjener bedre valg."
       }
-    ]
-  },
+    ],
 
-  "hard_lemonade": {
-    "product": "Hard limonade",
-    "product_intro_title": "Sprø. Livlig. Frisk.",
-    "product_intro_description": "Laget med verdens fineste sitroner – håndplukket fra de solfylte lundene på Sicilia i Sør-Italia. En sprø, livlig sitrusprofil med den naturlige sødmen og munnfølelsen av ekte rørsukker – søtet kun med rent steviablad fra Sør-Amerika og naturlig fermentert erytritol.",
-    "product_intro_blend": "Blandet med økologisk vodka av høy kvalitet. Perfekt balansert – forfriskende lett, men likevel luksuriøs.",
-    "product_highlights": [
+    "hard_lemonade_product": "Hard limonade",
+    "hard_lemonade_product_intro_title": "Sprø. Livlig. Frisk.",
+    "hard_lemonade_product_intro_description": "Laget med verdens fineste sitroner – håndplukket fra de solfylte lundene på Sicilia i Sør-Italia. En sprø, livlig sitrusprofil med den naturlige sødmen og munnfølelsen av ekte rørsukker – søtet kun med rent steviablad fra Sør-Amerika og naturlig fermentert erytritol.",
+    "hard_lemonade_product_intro_blend": "Blandet med økologisk vodka av høy kvalitet. Perfekt balansert – forfriskende lett, men likevel luksuriøs.",
+    "hard_lemonade_product_highlights": [
       "4 % alkohol",
       "100 % sukkerfri",
       "Allergenfri",
@@ -82,14 +80,13 @@
       "Kun 57 kalorier per boks",
       "Gir ingen bakrus"
     ],
-    "find_reseller": "Finn forhandler"
-  },
-  "hard_berries": {
-    "product": "harde bær",
-    "product_intro_title": "Saftig. Dristig. Sofistikert.",
-    "product_intro_description": "En eksklusiv blanding av bær – håndplukket fra de solfylte jordene i Barcelona til den rike, fruktbare jorden på Sicilia. En dyp, saftig produktprofil med den naturlige sødmen og munnfølelsen av ekte rørsukker – søtet kun med rent steviablad fra Sør-Amerika og naturlig fermentert erytritol.",
-    "product_intro_blend": "Blandet med økologisk vodka av høy kvalitet. Perfekt balansert – forfriskende lett, men likevel overdådig.",
-    "product_highlights": [
+    "hard_lemonade_find_reseller": "Finn forhandler",
+
+    "hard_berries_product": "harde bær",
+    "hard_berries_product_intro_title": "Saftig. Dristig. Sofistikert.",
+    "hard_berries_product_intro_description": "En eksklusiv blanding av bær – håndplukket fra de solfylte jordene i Barcelona til den rike, fruktbare jorden på Sicilia. En dyp, saftig produktprofil med den naturlige sødmen og munnfølelsen av ekte rørsukker – søtet kun med rent steviablad fra Sør-Amerika og naturlig fermentert erytritol.",
+    "hard_berries_product_intro_blend": "Blandet med økologisk vodka av høy kvalitet. Perfekt balansert – forfriskende lett, men likevel overdådig.",
+    "hard_berries_product_highlights": [
       "4 % alkohol",
       "100 % sukkerfri",
       "Allergenfri",
@@ -97,14 +94,10 @@
       "Kun 57 kalorier per boks",
       "Gir ingen bakrus"
     ],
-    "find_reseller": "Finn forhandler"
-  },
+    "hard_berries_find_reseller": "Finn forhandler",
 
-  "Stories": {
     "skinny_consequences": "Skinny Consequences",
-    "skinny_story": "Den tynne historien",
     "skinny_story_tagline": "Brygget for hånd. Født av frustrasjon. Bygget for frihet.",
-
     "story_heading": "Historien",
     "story_intro": "Revolusjonen startet ikke i et laboratorium – den startet i baren. I en røykfylt bar i California på 90-tallet ba en gruppe kvinner om noe uhørt: En drink uten sukker. Uten oppblåsthet. Uten konsekvenser.",
     "story_origin": "Bartenderen blandet vodka, brus og lime.\n «Den tynne tispe», spøkte de.",

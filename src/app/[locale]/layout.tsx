@@ -3,7 +3,6 @@ import { Metadata } from 'next'
 import { Amiri, Varela_Round } from 'next/font/google'
 import { Locale, locales } from '@/i18n'
 import { unstable_setRequestLocale } from 'next-intl/server'
-import { setRequestLocale } from 'next-intl/server'
 
 import { getSiteConfig } from '@/config/site-i18n'
 import { cn } from '@/lib/utils'
@@ -32,7 +31,6 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params: { locale },
 }: PageProps): Promise<Metadata> {
-  await setRequestLocale(locale)
   const siteConfig = getSiteConfig(locale)
   return {
     title: {

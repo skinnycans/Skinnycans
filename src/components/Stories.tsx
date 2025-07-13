@@ -11,7 +11,7 @@ import StoryImage4Bg from '@/assets/the_story_4_bg.png'
 import React from 'react'
 
 export default function Stories() {
-  const t = useTranslations('Stories')
+  const t = useTranslations('Index')
   return (
     <div className="overflow-hidden">
       <div className="pb-10">

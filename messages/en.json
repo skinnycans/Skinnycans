@@ -8,7 +8,6 @@
     "year_two": "year",
     "soda-two": "Hard BERRIES",
     "discover": "discover",
-    "skinny_story": "the skinny story",
     "full_story": "read the full story",
     "event_heading": "Home brewed. Designed to be healthier. Joy without regret. Just like it should be. Cheers!",
     "contact_us": "CONTACT US",
@@ -66,15 +65,13 @@
         "percent": "100%",
         "text": "of these adults deserve better choices."
       }
-    ]
-  },
+    ],
 
-  "hard_lemonade": {
-    "product": "Hard Lemonade",
-    "product_intro_title": "Crisp. Vibrant. Fresh.",
-    "product_intro_description": "Crafted with the world’s finest lemons — hand-picked from the sun-drenched groves of Sicily in southern Italy. A crisp, vibrant citrus profile with the natural sweetness and mouthfeel of real cane sugar — sweetened only with pure stevia leaf from South America and naturally fermented erythritol.",
-    "product_intro_blend": "Blended with high-quality organic vodka. Perfectly balanced — refreshingly light, yet indulgent.",
-    "product_highlights": [
+    "hard_lemonade_product": "Hard Lemonade",
+    "hard_lemonade_product_intro_title": "Crisp. Vibrant. Fresh.",
+    "hard_lemonade_product_intro_description": "Crafted with the world’s finest lemons — hand-picked from the sun-drenched groves of Sicily in southern Italy. A crisp, vibrant citrus profile with the natural sweetness and mouthfeel of real cane sugar — sweetened only with pure stevia leaf from South America and naturally fermented erythritol.",
+    "hard_lemonade_product_intro_blend": "Blended with high-quality organic vodka. Perfectly balanced — refreshingly light, yet indulgent.",
+    "hard_lemonade_product_highlights": [
       "4% alcohol",
       "100% sugar-free",
       "Allergen-free",
@@ -82,15 +79,13 @@
       "Only 57 calories per can",
       "Gives no hangover"
     ],
-    "find_reseller": "Find reseller"
-  },
+    "hard_lemonade_find_reseller": "Find reseller",
 
-  "hard_berries": {
-    "product": "hard berries",
-    "product_intro_title": "Juicy. Bold. Sophisticated.",
-    "product_intro_description": "An exclusive blend of berries — hand-selected from the sun-drenched fields of Barcelona to the rich, fertile soils of Sicily. A deep, juicy product profile with the natural sweetness and mouthfeel of real cane sugar — sweetened only with pure stevia leaf from South America and naturally fermented erythritol.",
-    "product_intro_blend": "Blended with high-quality organic vodka. Perfectly balanced — refreshingly light, yet indulgent.",
-    "product_highlights": [
+    "hard_berries_product": "hard berries",
+    "hard_berries_product_intro_title": "Juicy. Bold. Sophisticated.",
+    "hard_berries_product_intro_description": "An exclusive blend of berries — hand-selected from the sun-drenched fields of Barcelona to the rich, fertile soils of Sicily. A deep, juicy product profile with the natural sweetness and mouthfeel of real cane sugar — sweetened only with pure stevia leaf from South America and naturally fermented erythritol.",
+    "hard_berries_product_intro_blend": "Blended with high-quality organic vodka. Perfectly balanced — refreshingly light, yet indulgent.",
+    "hard_berries_product_highlights": [
       "4% alcohol",
       "100% sugar-free",
       "Allergen-free",
@@ -98,14 +93,11 @@
       "Only 57 calories per can",
       "Gives no hangover"
     ],
-    "find_reseller": "Find reseller"
-  },
+    "hard_berries_find_reseller": "Find reseller",
 
-  "Stories": {
     "skinny_consequences": "Skinny Consequences",
     "skinny_story": "The Skinny Story",
     "skinny_story_tagline": "Brewed by hand. Born out of frustration. Built for freedom.",
-
     "story_heading": "The Story",
     "story_intro": "The revolution didn’t start in a lab – it started at the bar. In a smoky California bar in the 90s, a group of women asked for something unheard of: A drink without sugar. Without bloat. Without consequences.",
     "story_origin": "The bartender mixed vodka, soda and lime.\n “The Skinny Bitch,” they joked.",

@@ -12,9 +12,8 @@ interface PageProps {
 
 export default function Page({ params }: PageProps) {
   const { slug } = params
-  const t = useTranslations(slug)
-  const b = useTranslations('Index')
-  const productHighlights = t.raw('product_highlights') as string[]
+  const t = useTranslations('Index')
+  const productHighlights = t.raw(`${slug}_product_highlights`) as string[]
 
   return (
     <main className="mx-auto mt-20 w-screen overflow-hidden lg:mt-40">
@@ -28,13 +27,13 @@ export default function Page({ params }: PageProps) {
         <div className="container relative z-10 space-y-28">
           <section className="space-y-5 text-center font-varela uppercase tracking-wider text-primary md:space-y-9 ">
             <div className="relative after:absolute after:-bottom-1 after:left-1/2 after:h-0.5 after:w-7 after:-translate-x-1/2 after:rounded-full after:bg-primary">
-              <p className="text-sm lg:text-base">{b('collection')}</p>
+              <p className="text-sm lg:text-base">{t('collection')}</p>
             </div>
             <h1 className="font-amiri text-3xl md:text-5xl lg:text-7xl">
-              {t('product')}
+              {t(`${slug}_product`)}
             </h1>
             <p className="font-varela text-sm leading-5 text-primary md:text-base">
-              {b('year_two')}-{b('year')}
+              {t('year_two')}-{t('year')}
             </p>
           </section>
           <section>
@@ -42,20 +41,20 @@ export default function Page({ params }: PageProps) {
               <div className="h-full">
                 <Image
                   src={slug === 'hard_lemonade' ? SodaOne : SodaTwo}
-                  alt={t('product')}
+                  alt={t(`${slug}_product`)}
                   sizes="100%"
                   className="mx-auto h-full min-h-52 w-auto"
                 />
               </div>
               <div className="space-y-7 py-4 lg:col-span-2">
                 <h3 className="font-amiri text-2xl text-primary md:text-3xl lg:text-4xl">
-                  {t('product_intro_title')}
+                  {t(`${slug}_product_intro_title`)}
                 </h3>
                 <p className="text-base text-[#96A69C] md:text-lg">
-                  {t('product_intro_description')}
+                  {t(`${slug}_product_intro_description`)}
                 </p>
                 <p className="text-base text-[#96A69C] md:text-lg">
-                  {t('product_intro_blend')}
+                  {t(`${slug}_product_intro_blend`)}
                 </p>
 
                 <ul className="list-disc space-y-1 py-3 pl-4">
@@ -70,7 +69,8 @@ export default function Page({ params }: PageProps) {
                 </ul>
 
                 <button className="flex items-center justify-center gap-2 bg-primary px-8 py-3 text-xs uppercase tracking-wider text-white transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base">
-                  {t('find_reseller')} <Icons.rightArrow className="h-5 w-5" />
+                  {t(`${slug}_find_reseller`)}{' '}
+                  <Icons.rightArrow className="h-5 w-5" />
                 </button>
               </div>
             </div>

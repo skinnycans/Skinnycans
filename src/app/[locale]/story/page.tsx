@@ -1,17 +1,18 @@
-import Collections from '@/components/Collections'
+import Stories from '@/components/Stories'
+import StoryBanner from '@/components/StoryBanner'
 import { unstable_setRequestLocale } from 'next-intl/server'
 import React from 'react'
 
-export default function ProductPage({
+export default function Page({
   params: { locale },
 }: {
   params: { locale: string }
 }) {
   unstable_setRequestLocale(locale)
-
   return (
-    <main className="mx-auto mt-20 w-screen overflow-hidden lg:mt-40">
-      <Collections />
+    <main>
+      <StoryBanner />
+      <Stories />
     </main>
   )
 }

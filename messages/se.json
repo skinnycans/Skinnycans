@@ -66,15 +66,12 @@
         "percent": "100%",
         "text": "dáin rávisolbmuin ánssášit buoret válljemiid."
       }
-    ]
-  },
-
-  "hard_lemonade": {
-    "product": "Gárvves limonada",
-    "product_intro_title": "Crisp. Vibrant. Fresh.",
-    "product_intro_description": "Ráhkaduvvon máilmmi buoremus sitruvnnain — gieđaiguin válljejuvvon beaivváščuovggas Sicilias Davvi-Itálias. Čuovga, ealli sitrusprofiila mas lea lunddolaš smákku ja njálmmi dovdu duohta njuovvansohkkariin — smáhkkaduvvon dušše buhtes stevia-lávkkiin Davvi-Amerihkás ja lunddolaš šaddošlájain.",
-    "product_intro_blend": "Seaguhuvvon alla kvalitehta luomu vodkain. Áibbas dássedis — ođasmahtti liegga, muhto liikká čáppa.",
-    "product_highlights": [
+    ],
+    "hard_lemonade_product": "Gárvves limonada",
+    "hard_lemonade_product_intro_title": "Crisp. Vibrant. Fresh.",
+    "hard_lemonade_product_intro_description": "Ráhkaduvvon máilmmi buoremus sitruvnnain — gieđaiguin válljejuvvon beaivváščuovggas Sicilias Davvi-Itálias. Čuovga, ealli sitrusprofiila mas lea lunddolaš smákku ja njálmmi dovdu duohta njuovvansohkkariin — smáhkkaduvvon dušše buhtes stevia-lávkkiin Davvi-Amerihkás ja lunddolaš šaddošlájain.",
+    "hard_lemonade_product_intro_blend": "Seaguhuvvon alla kvalitehta luomu vodkain. Áibbas dássedis — ođasmahtti liegga, muhto liikká čáppa.",
+    "hard_lemonade_product_highlights": [
       "4% alkohola",
       "100% sohkarkeahtes",
       "Allergenakeahtes",
@@ -82,15 +79,12 @@
       "Dušše 57 kaloriija juohke kánske",
       "Ii atte givssideami"
     ],
-    "find_reseller": "Gávnnat viidáset vuovdi"
-  },
-
-  "hard_berries": {
-    "product": "garra bierggut",
-    "product_intro_title": "Juicy. Bold. Sophisticated.",
-    "product_intro_description": "Eksklusiiva seaguhus biergguin — gieđaiguin válljejuvvon Barcelona beaivvášgoahtán eatnamiin gitta Sicilia rikkis, šaddolaš eatnamiidda. Dievva, čáhppes buvttaprofiila mas lea lunddolaš smávvavuohta ja njálmmi dovdu duohta njuovvansohkkariin — mii lea smáhkkaduvvon dušše buhtes stevialávkkiin ja lunddolaš šaddošlájain mat bohtet Davvi-Amerihkás.",
-    "product_intro_blend": "Seaguhuvvon alla kvalitehta luomu vodkain. Áibbas dássedis — ođasmahtti liegga, muhto liikká čáppa.",
-    "product_highlights": [
+    "hard_lemonade_find_reseller": "Gávnnat viidáset vuovdi",
+    "hard_berries_product": "garra bierggut",
+    "hard_berries_product_intro_title": "Juicy. Bold. Sophisticated.",
+    "hard_berries_product_intro_description": "Eksklusiiva seaguhus biergguin — gieđaiguin válljejuvvon Barcelona beaivvášgoahtán eatnamiin gitta Sicilia rikkis, šaddolaš eatnamiidda. Dievva, čáhppes buvttaprofiila mas lea lunddolaš smávvavuohta ja njálmmi dovdu duohta njuovvansohkkariin — mii lea smáhkkaduvvon dušše buhtes stevialávkkiin ja lunddolaš šaddošlájain mat bohtet Davvi-Amerihkás.",
+    "hard_berries_product_intro_blend": "Seaguhuvvon alla kvalitehta luomu vodkain. Áibbas dássedis — ođasmahtti liegga, muhto liikká čáppa.",
+    "hard_berries_product_highlights": [
       "4% alkohola",
       "100% sohkarkeahtes",
       "Allergenakeahtes",
@@ -98,12 +92,8 @@
       "Dušše 57 kaloriija juohke kánske",
       "Ii atte givssideami"
     ],
-    "find_reseller": "Gávnnat viidáset vuovdi"
-  },
-
-  "Stories": {
+    "hard_berries_find_reseller": "Gávnnat viidáset vuovdi",
     "skinny_consequences": "Skinny Consequences",
-    "skinny_story": "The Skinny Story",
     "skinny_story_tagline": "Bráhkaduvvon gieđaiguin. Riegádan balddihahttivuođas. Huksejuvvon friddjavuođa ovdii.",
     "story_heading": "Muitalus",
     "story_intro": "Revolušuvdna ii álgán laboratoriijas – dat álggii báris. 90-logus muhtin čáhppes California báras bivddii muhtin nissonjoavku juoidá maid ii lean gullon: Juoga mas ii lean sohkar. Ii lean čalbmebuohcuvuohta. Ii lean váikkuhusat.",
