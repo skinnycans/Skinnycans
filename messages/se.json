@@ -109,6 +109,53 @@
     "story_regret": "Ja doalahii dan mii lei dehálaš:\n Opprøret. Resepta. Vuoigatvuohta návddašit – šállošeami haga.",
     "story_today": "Odne, mii leat Skinny.",
     "story_tagline": "Didjiide geat dánsejit olles ija ja hárjehallet čuovganeapmái. Sidjiide geat háliidit dearvvašvuođa almmá givssideami haga. Sidjiide geat ellet garrasit ja ellet lieggasit.",
-    "story_footer": "Skinny Cans\nHome brewed. Designed nu ahte lea dearvvašlaš.\n Joy almmá šállošeami haga. Juste nu mo galggašii leat.\n Cheers!"
+    "story_footer": "Skinny Cans\nHome brewed. Designed nu ahte lea dearvvašlaš.\n Joy almmá šállošeami haga. Juste nu mo galggašii leat.\n Cheers!",
+    "event_overlay_text": "ráhkaduvvon gieđaiguin. dieđalaš\n doarjaga. huksejuvvon dearvvašvuođa várás"
+  },
+
+  "BBS": {
+    "heading": "Dieđalaš doarjja",
+    "research_shows_heading": "Dutkančájáhusat",
+    "research_shows_paragraph": "Dat maid válljet juhkat lea deháleabbo go jurddašat. Eanaš olbmot oidnet alkohola váldováttisvuohtan. Muhto dávjá lea dat mii dasa gullá — sohkar, kaloriijaid, badjelmeare geavaheapmi mii dagaha duohta vahágiid.",
+    "alcohol_heading": "Alkohola ja du rumaš",
+    "alcohol_paragraph": "Alkohola bidjá liigestreassa du orgánaide ja sáhttá dagahit buozalmasvuođa. Dat mearkkaša ahte du rumaš ferte bargat garraseappot divvut iežas, ja dat váikkuha buot metabolismmas gitta immunvástádussii.",
+    "sugar_heading": "Sohkar dagaha dan vearrábun",
+    "sugar_paragraph": "Bidjat stuorra meari sohkkara nugo dat mii gávdno eanaš gárvves juhkamušain ja oaččut dakkár kombinašuvnna maid du rumaš ii nagot gieđahallat.nLiige sohkar rievdaduvvo jođánit njuoratmánnái. Alkohola ovttastahttojuvvon šaddá metabolalaš lassáneapmi ain stuorát.",
+    "calories": "Kaloriijaid maid it fuomáš",
+    "calories_paragraph": "Okta dábálaš RTD-cocktail sáhttá sisdoallat seamma ollu kaloriijaid go olles borramuš. Dát čihkkojuvvon lassi lassána — mii dagaha ahte šaddá deaddu ja hehtte du rupmaša balánssa áiggi mielde.",
+    "new_need": "Ođđa dárbu",
+    "need_paragraph": "Eanet olbmot go goassige ovdal háliidit dahkat čeahpibut válljemiid — eai dušše das maid borret ja mo lihkadit, muhto maiddái das mo juhket. Olbmot háliidit ain somás. Sii háliidit ain návddašit eallima. Muhto sii háliidit dahkat dan dakkár vuogi mielde mii dovdá buoret — iežaset rupmaša ja iežaset oamedovddu ovddas.",
+
+    "whySkinnyTitle": "Dan dihte Skinny gávdno",
+    "whySkinnyDescription": "Mii leat ráhkadan Skinny Cans vai lea álkit válljet čeahpibut go háliidat juhkat.",
+    "benefits": [
+      "Luonddulaš ávdnasat",
+      "Nolla sohkar",
+      "Unnit kaloriijaid",
+      "Ii leat artifisála søteávdnasat",
+      "Dahkkojuvvon nu ahte unnida dan streassa maid alkohola bidjá du rupmašii"
+    ],
+    "enjoyWithoutCompromise": "Nu ahte sáhtát ain návddašit – kompromissa haga.\n Dás ii leat sáhka eanet juhkamis.\n Dás lea sáhka čeahpibut juhkat.",
+
+    "scientificBacking": "Dieđalaš doarjja",
+    "backing-1": "Populašuvdnavuođđuduvvon kohortadutkamuš gávnnai ahte dábálaš geavaheapmi sohkar-smávva alkoholalaš juhkamušain lea čadnon mearkkašahtti eambbo njuoratmánnái go duššefal alkohola.",
+    "backing-2": "Alkohola- ja sohkar-smávva juhkamušaid geavaheapmi lea čadnon njuoratmánnái čoagganeapmái",
+    "backing-3": "Badjelmeare sohkkariid váldin dagaha bissovaš alla dási buozalmasvuođa",
+    "read": "Loga oahpu"
+  },
+
+  "Partner": {
+    "partner": "Guoibmi",
+    "title": "sivva jáhkkit",
+    "partnering_heading": "Partnering With Starzinger",
+    "partnering_description": "Sihkkarastá fleksibilitehta ja kapasitehta sturrot buvttadeami gitta 3 miljovnna čáhcebohcci vahkkui",
+    "logistics_partnership": "Strategalaš logistihkalaš ovttasbargu Red Bull:in",
+    "logistics_description": "Doaibmi juohkima ja buvttadanvuogádaga várás globálalaččat",
+    "launch_announcement": "Álggahit ođđa ođđa kategoriija",
+    "launch_description": "Alkoholalaš juhkamušaid ealáhusas—dearvvašvuođa ja buresbirgejumi guovddážis—máilmmi njunuš trendagávpogis: Los Angelesas, Californias, skábmamánus 2026.",
+    "contact": "váldde oktavuođa minguin",
+    "next": "Boahtte golbma jagi",
+    "warehouse": "Gálvojođus",
+    "live": "Eallit odne"
   }
 }

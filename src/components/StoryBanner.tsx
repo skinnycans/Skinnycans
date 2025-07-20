@@ -1,18 +1,21 @@
 import Image from 'next/image'
 import React from 'react'
 
-import StoryBg from '@/assets/skinny-story.webp'
 import { useTranslations } from 'next-intl'
-import { Icons } from './icons'
-import Link from 'next/link'
+import { StaticImport } from 'next/dist/shared/lib/get-img-props'
 
-export default function StoryBanner() {
+interface StoryBannerProps {
+  title: string
+  img: string | StaticImport
+}
+
+export default function StoryBanner({ title, img }: StoryBannerProps) {
   const t = useTranslations('Index')
 
   return (
     <div className="relative flex items-center justify-center pb-28 pt-48 lg:py-72 lg:pb-60">
       <Image
-        src={StoryBg}
+        src={img}
         alt="Background Image"
         fill
         sizes="100%"
@@ -26,7 +29,7 @@ export default function StoryBanner() {
           </p>
         </div>
         <h2 className="font-amiri text-3xl uppercase md:text-5xl lg:text-6xl">
-          {t('skinny_story')}
+          {title}
         </h2>
         <p className="font-varela text-base tracking-wide">
           {t('skinny_story_tagline')}{' '}

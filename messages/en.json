@@ -112,6 +112,54 @@
     "story_regret": "And kept what mattered:\n The rebellion. The recipe. The right to enjoy – without regret.",
     "story_today": "Today, we’re Skinny.",
     "story_tagline": "For the ones who dance all night and train at dawn. For the ones who want health without boring. For the ones who live loud and live light.",
-    "story_footer": "Skinny Cans\nHome brewed. Designed to be healthier.\n Joy without regret. Just like it should be.\n Cheers!"
+    "story_footer": "Skinny Cans\nHome brewed. Designed to be healthier.\n Joy without regret. Just like it should be.\n Cheers!",
+    "event_overlay_text": "brewed by hand. backed by\n science. built for health"
+  },
+
+  "BBS": {
+    "heading": "Backed by science",
+    "research_shows_heading": "Research shows",
+    "research_shows_paragraph": "What you choose to drink matters more than you think.Most people see alcohol as the main problem. But it’s often what comes with it — sugar, calories, overload that does the real damage.",
+    "alcohol_heading": "Alcohol and your body",
+    "alcohol_paragraph": "Alcohol puts extra stress on your organs and can trigger inflammation. That means your body has to work harder to repair itself, impacting everything from metabolism to immune response.",
+    "sugar_heading": "Sugar makes it worse",
+    "sugar_paragraph": "Add large amounts of sugar like what’s found in most ready-to-drink cocktails and you get a combination your body struggles to handle.nExcess sugar is quickly converted into fat by the liver. Paired with alcohol, the metabolic load becomes even greater.",
+    "calories": "Calories you don’t notice",
+    "calories_paragraph": "One typical RTD cocktail can contain as many calories as a full meal. This hidden load adds up — leading to weight gain and disrupting your body’s balance over time.",
+
+    "new_need": "A New Need",
+    "need_paragraph": "More people than ever are looking to make smarter choices — not just in what they eat and how they move, but also in how they drink. People still want fun. They still want to enjoy life. But they want to do it in a way that feels better — for their body and their conscience.",
+
+    "whySkinnyTitle": "That’s why Skinny exists",
+    "whySkinnyDescription": "We created Skinny Cans to make it easier to choose smarter when you want a drink.",
+    "benefits": [
+      "Natural ingredients",
+      "Zero sugar",
+      "Fewer calories",
+      "No artificial sweeteners",
+      "Built to minimize the stress alcohol puts on your body"
+    ],
+    "enjoyWithoutCompromise": "So you can still enjoy — without compromise.\nIt’s not about drinking more.\nIt’s about drinking smarter.",
+
+    "scientificBacking": "Scientific backing",
+    "backing-1": "A population-based cohort study found that regular consumption of sugar-sweetened alcoholic drinks is linked to significantly higher liver fat than alcohol alone.",
+    "backing-2": "Consumption of Alcoholic and Sugar-Sweetened Beverages is Associated with Liver Fat Accumulation",
+    "backing-3": "Excessive intake of dietary sugars induces chronic low-grade inflammation",
+    "read": "Read Study"
+  },
+
+  "Partner": {
+    "partner": "Partner",
+    "title": "reason to beleive",
+    "partnering_heading": "Partnering With Starzinger",
+    "partnering_description": "Ensures flexibility and capacity to scale production up to 3 million cans per week",
+    "logistics_partnership": "Strategic logistics partnership with Red Bull",
+    "logistics_description": "For efficient distribution and supply chain globally",
+    "launch_announcement": "Launching a groundbreaking new category",
+    "launch_description": "In the alcoholic beverage industry—centered around health and wellness—in the world's premier trendsetting city: Los Angeles, California, February 2026.",
+    "contact": "contact us",
+    "next": "Next three years",
+    "warehouse": "Warehouse",
+    "live": "Live today"
   }
 }

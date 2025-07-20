@@ -1,9 +1,9 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
-import ProductImage from '@/assets/overview_product_image.png'
 import OverviewFlower from '@/assets/overview_background.png'
 import { Icons } from './icons'
+import ProductCarousel from './ProductCarousel'
 
 export default function ProductOverview() {
   const t = useTranslations('Index')
@@ -23,14 +23,8 @@ export default function ProductOverview() {
           </h3>
           <div>
             <div className="grid items-center gap-8 md:grid-cols-2 lg:gap-12">
-              <div>
-                <Image
-                  src={ProductImage}
-                  alt="Product Overview"
-                  sizes="100%"
-                  className="h-auto w-full"
-                />
-              </div>
+              <ProductCarousel />
+
               <div>
                 <h2 className="font-amiri text-2xl uppercase text-primary md:text-3xl lg:text-4xl">
                   {t('product_overview_head')}
@@ -39,7 +33,7 @@ export default function ProductOverview() {
                   {benefits.map((benefit, index) => (
                     <li
                       key={index}
-                      className=" font-varela text-lg text-[#96A69C] md:text-xl lg:text-2xl"
+                      className=" font-varela text-lg text-[#96A69C] md:text-xl"
                     >
                       {benefit}
                     </li>

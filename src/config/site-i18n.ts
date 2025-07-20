@@ -4,6 +4,7 @@ export type SiteConfig = {
   name: string
   description: string
   mainNav: { title: string; href: string }[]
+  footerNav: { title: string; href: string }[]
   links: {
     twitter: string
     instagram: string
@@ -43,8 +44,30 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/story',
       },
       {
+        title: 'Backed by science',
+        href: '/bbs',
+      },
+      {
         title: 'Partner',
         href: '/partner',
+      },
+    ],
+    footerNav: [
+      {
+        title: 'Home',
+        href: '/',
+      },
+      {
+        title: 'Products',
+        href: '/product',
+      },
+      {
+        title: 'Partner',
+        href: '/partner',
+      },
+      {
+        title: 'The Story',
+        href: '/story',
       },
     ],
     links: {
@@ -84,8 +107,30 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/story',
       },
       {
+        title: 'Støttet av vitenskapen',
+        href: '/bbs',
+      },
+      {
         title: 'Partner',
         href: '/partner',
+      },
+    ],
+    footerNav: [
+      {
+        title: 'hjem',
+        href: '/',
+      },
+      {
+        title: 'Produkter',
+        href: '/product',
+      },
+      {
+        title: 'Partner',
+        href: '/partner',
+      },
+      {
+        title: 'historien',
+        href: '/story',
       },
     ],
     links: {
@@ -125,8 +170,30 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/story',
       },
       {
+        title: 'Dieđalaš doarjja',
+        href: '/bbs',
+      },
+      {
         title: 'guoibmi',
         href: '/partner',
+      },
+    ],
+    footerNav: [
+      {
+        title: 'ruoktu',
+        href: '/',
+      },
+      {
+        title: 'Buvttat',
+        href: '/product',
+      },
+      {
+        title: 'guoibmi',
+        href: '/partner',
+      },
+      {
+        title: 'muitalus',
+        href: '/story',
       },
     ],
     links: {

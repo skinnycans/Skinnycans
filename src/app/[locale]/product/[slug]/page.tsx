@@ -5,6 +5,8 @@ import SodaTwo from '@/assets/skinny-can-two.png'
 import Image from 'next/image'
 import { Icons } from '@/components/icons'
 import BgOneSlug from '@/assets/product_slug_background.png'
+import ProductSubImage from '@/assets/skinny-crisp.png'
+import ProductSubImage1 from '@/assets/skinny-juicy.png'
 
 interface PageProps {
   params: { slug: string }
@@ -36,8 +38,8 @@ export default function Page({ params }: PageProps) {
               {t('year_two')}-{t('year')}
             </p>
           </section>
-          <section>
-            <div className="mx-auto grid max-w-5xl items-center justify-center gap-7 lg:grid-cols-3">
+          <section className="relative">
+            <div className="relative z-10 mx-auto grid max-w-5xl items-center justify-center gap-7 lg:grid-cols-3">
               <div className="h-full">
                 <Image
                   src={slug === 'hard_lemonade' ? SodaOne : SodaTwo}
@@ -46,7 +48,18 @@ export default function Page({ params }: PageProps) {
                   className="mx-auto h-full min-h-52 w-auto"
                 />
               </div>
-              <div className="space-y-7 py-4 lg:col-span-2">
+              <div className="relative space-y-7 py-4 lg:col-span-2">
+                <div className="absolute bottom-0 right-0 z-0 h-auto w-32 md:w-52 lg:w-60">
+                  <Image
+                    src={
+                      slug === 'hard_lemonade'
+                        ? ProductSubImage
+                        : ProductSubImage1
+                    }
+                    alt={t(`${slug}_product`)}
+                    sizes="100%"
+                  />
+                </div>
                 <h3 className="font-amiri text-2xl text-primary md:text-3xl lg:text-4xl">
                   {t(`${slug}_product_intro_title`)}
                 </h3>

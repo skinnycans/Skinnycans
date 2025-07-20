@@ -112,6 +112,53 @@
     "story_regret": "Og beholdt det som betydde noe:\n Opprøret. Oppskriften. Retten til å nyte – uten anger.",
     "story_today": "I dag er vi Skinny.",
     "story_tagline": "For de som danser hele natten og trener ved daggry. For de som vil ha helse uten å kjede seg. For de som lever høyt og lever lett.",
-    "story_footer": "Skinny Cans\nHjem brygget. Utviklet for å være sunnere.\n Glede uten anger. Akkurat som det skal være.\n Skål!"
+    "story_footer": "Skinny Cans\nHjem brygget. Utviklet for å være sunnere.\n Glede uten anger. Akkurat som det skal være.\n Skål!",
+    "event_overlay_text": "Brygget for hånd. Støttet av\n vitenskap. Bygget for helse"
+  },
+
+  "BBS": {
+    "heading": "Støttet av vitenskapen",
+    "research_shows_heading": "Forskning viser",
+    "research_shows_paragraph": "Hva du velger å drikke betyr mer enn du tror. De fleste ser på alkohol som hovedproblemet. Men det er ofte det som følger med – sukker, kalorier, overbelastning som gjør den virkelige skaden.",
+    "alcohol_heading": "Alkohol og kroppen din",
+    "alcohol_paragraph": "Alkohol legger ekstra belastning på organene dine og kan utløse betennelse. Det betyr at kroppen din må jobbe hardere for å reparere seg selv, noe som påvirker alt fra metabolisme til immunrespons.",
+    "sugar_heading": "Sukker gjør det verre",
+    "sugar_paragraph": "Tilsett store mengder sukker som det som finnes i de fleste ferdige cocktailer, og du får en kombinasjon kroppen din sliter med å håndtere. Overflødig sukker omdannes raskt til fett av leveren. Sammen med alkohol blir den metabolske belastningen enda større.",
+    "calories": "Kalorier du ikke legger merke til",
+    "calories_paragraph": "En typisk RTD-cocktail kan inneholde like mange kalorier som et fullt måltid. Denne skjulte belastningen hoper seg opp – og fører til vektøkning og forstyrrer kroppens balanse over tid.",
+    "new_need": "Et nytt behov",
+    "need_paragraph": "Flere enn noen gang ønsker å ta smartere valg – ikke bare i hva de spiser og hvordan de beveger seg, men også i hvordan de drikker. Folk vil fortsatt ha det gøy. De vil fortsatt nyte livet. Men de vil gjøre det på en måte som føles bedre – for kroppen og samvittigheten sin.",
+
+    "whySkinnyTitle": "Det er derfor Skinny finnes",
+    "whySkinnyDescription": "Vi har laget Skinny Cans for å gjøre det enklere å velge smartere når du vil ha noe å drikke.",
+    "benefits": [
+      "Naturlige ingredienser",
+      "Null sukker",
+      "Færre kalorier",
+      "Ingen kunstige søtningsmidler",
+      "Laget for å minimere stresset alkohol legger på kroppen din"
+    ],
+    "enjoyWithoutCompromise": "Slik at du fortsatt kan nyte – uten kompromisser.\n Det handler ikke om å drikke mer.\nDet handler om å drikke smartere.",
+
+    "scientificBacking": "Vitenskapelig støtte",
+    "backing-1": "En populasjonsbasert kohortstudie fant at regelmessig inntak av sukkerholdige alkoholholdige drikker er knyttet til betydelig høyere leverfettinnhold enn alkohol alene.",
+    "backing-2": "Forbruk av alkoholholdige og sukkerholdige drikker er assosiert med opphopning av leverfett",
+    "backing-3": "Overdrevent inntak av sukker i kosten induserer kronisk lavgradig betennelse",
+    "read": "Les studien"
+  },
+
+  "Partner": {
+    "partner": "Partner",
+    "title": "grunn til å tro",
+    "partnering_heading": "Samarbeid med Starzinger",
+    "partnering_description": "Sikrer fleksibilitet og kapasitet til å skalere produksjonen opp til 3 millioner bokser per uke",
+    "logistics_partnership": "Strategisk logistikkpartnerskap med Red Bull",
+    "logistics_description": "For effektiv distribusjon og forsyningskjede globalt",
+    "launch_announcement": "Lansering av en banebrytende ny kategori",
+    "launch_description": "I alkoholholdig drikkevareindustrien – sentrert rundt helse og velvære – i verdens fremste trendsettende by: Los Angeles, California, februar 2026.",
+    "contact": "kontakt oss",
+    "next": "De neste tre årene",
+    "warehouse": "Lager",
+    "live": "Live i dag"
   }
 }

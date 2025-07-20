@@ -6,8 +6,6 @@ import { Locale } from '@/i18n'
 import { BsInstagram, BsTwitterX } from 'react-icons/bs'
 import { FaFacebookF } from 'react-icons/fa'
 import { AiOutlineYoutube } from 'react-icons/ai'
-import Awards from '@/assets/awards.svg'
-import Image from 'next/image'
 import Link from 'next/link'
 
 interface SiteHeaderProps {
@@ -20,18 +18,10 @@ export default function Footer({ locale }: SiteHeaderProps) {
   return (
     <footer className=" relative z-10 border-t border-[#E6E6E6] bg-white pt-14 md:py-14">
       <div className="container">
-        <div className="grid items-center justify-center gap-10 md:grid-cols-3 md:justify-between">
-          <div className="justify-items-center md:col-span-3 md:justify-items-start lg:col-span-1">
-            <Image
-              src={Awards}
-              alt="Awards"
-              sizes="100%"
-              className="mx-auto h-14 w-auto lg:mx-0"
-            />
-          </div>
-          <div className="text-center md:col-span-2 md:text-start lg:col-span-1">
+        <div className="grid items-center justify-center gap-10 md:grid-cols-2 md:justify-between">
+          <div className="text-center md:text-start">
             <ul className="flex flex-col items-center justify-center gap-3 md:flex-row md:justify-start md:gap-12">
-              {siteConfig.mainNav.map((items, index) => (
+              {siteConfig.footerNav.map((items, index) => (
                 <li key={index} className="shrink-0">
                   <Link
                     href={items.href}

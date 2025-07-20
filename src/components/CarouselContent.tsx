@@ -25,8 +25,6 @@ export default function CarouselContent({
   cont,
   translation,
 }: CarouselContentProps) {
-  const t = useTranslations('Index')
-
   function renderWithBreaks(text: string) {
     return text.split('\n').map((line, idx) => (
       <React.Fragment key={idx}>

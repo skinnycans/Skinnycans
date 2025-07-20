@@ -20,6 +20,8 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
   const siteConfig = getSiteConfig(locale)
   const pathname = usePathname()
   const normalizedPath = pathname.replace(`/${locale}`, '') || '/'
+  const headerCo = normalizedPath === '/story' || normalizedPath === '/bbs'
+  const headerNo = normalizedPath !== '/story' && normalizedPath !== '/bbs'
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
@@ -54,7 +56,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
               </div>
               {/* Hamburger button for mobile */}
               <button
-                className={`transition-colors duration-300 ease-linear ${normalizedPath === '/story' && !scrolled ? 'text-white' : 'text-primary'} lg:hidden ${isOpen ? '-translate-x-40' : 'translate-x-0'} text-sm uppercase transition-transform duration-300 ease-in-out focus:outline-none`}
+                className={`transition-colors duration-300 ease-linear ${headerCo && !scrolled ? 'text-white' : 'text-primary'} lg:hidden ${isOpen ? '-translate-x-40' : 'translate-x-0'} text-sm uppercase transition-transform duration-300 ease-in-out focus:outline-none`}
                 onClick={() => setIsOpen(!isOpen)}
                 aria-label="Toggle Menu"
               >
@@ -87,7 +89,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             <div className="flex">
               <Link
                 href=""
-                className={`flex items-center gap-2 font-varela text-xs transition-colors duration-300 ease-linear ${normalizedPath === '/story' && !scrolled ? 'text-white' : 'text-primary'} uppercase`}
+                className={`flex items-center gap-2 font-varela text-xs transition-colors duration-300 ease-linear ${headerCo && !scrolled ? 'text-white' : 'text-primary'} uppercase`}
               >
                 <span>{siteConfig.location}</span>
                 <Icons.locate className="hidden h-5 w-5 md:inline-block" />
@@ -96,12 +98,12 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
           </div>
         </section>
         <div
-          className={`border-b transition-colors duration-300 ease-linear ${normalizedPath === '/story' && !scrolled ? 'border-[#E6E6E6]/30' : 'border-[#E6E6E6]'}`}
+          className={`border-b transition-colors duration-300 ease-linear ${headerCo && !scrolled ? 'border-[#E6E6E6]/30' : 'border-[#E6E6E6]'}`}
         />
         {/* Main Nav */}
         <section>
           <ul
-            className={`hidden items-center justify-center gap-24 border-b transition-colors duration-300 ease-linear ${normalizedPath === '/story' && !scrolled ? 'border-[#E6E6E6]/30' : 'border-[#E6E6E6]'} py-6 lg:flex`}
+            className={`hidden items-center justify-center gap-24 border-b transition-colors duration-300 ease-linear ${headerCo && !scrolled ? 'border-[#E6E6E6]/30' : 'border-[#E6E6E6]'} py-6 lg:flex`}
           >
             {siteConfig.mainNav.map((item, index) => {
               const isActive =
@@ -114,17 +116,13 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
                     href={item.href}
                     className={clsx(
                       'font-amiri text-base uppercase transition-colors duration-300',
-                      (isActive && scrolled) ||
-                        (isActive && normalizedPath !== '/story')
+                      (isActive && scrolled) || (isActive && headerNo)
                         ? 'text-primary'
-                        : isActive && normalizedPath === '/story' && !scrolled
+                        : isActive && headerCo && !scrolled
                           ? 'text-white'
-                          : (!isActive && scrolled) ||
-                              (isActive && normalizedPath !== '/story')
+                          : (!isActive && scrolled) || (isActive && headerNo)
                             ? 'text-[#7A9B87] hover:text-primary'
-                            : !isActive &&
-                                normalizedPath === '/story' &&
-                                !scrolled
+                            : !isActive && headerCo && !scrolled
                               ? 'text-white/50 hover:text-white'
                               : 'text-[#7A9B87] hover:text-primary',
                     )}
