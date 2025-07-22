@@ -87,6 +87,10 @@ const getIconByType = (type: MarkerType): Icon => iconMap[type]
 const WorldMap: React.FC = () => {
   const [mapLoaded, setMapLoaded] = useState(false)
 
+  const tileUrl = process.env.NEXT_PUBLIC_MAPS_API_KEY
+    ? `https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=${process.env.NEXT_PUBLIC_MAPS_API_KEY}`
+    : `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png`
+
   useEffect(() => {
     setMapLoaded(true)
   }, [])
@@ -109,10 +113,7 @@ const WorldMap: React.FC = () => {
       ]}
       maxBoundsViscosity={1.0}
     >
-      <TileLayer
-        url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
-        attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a>, &copy; <a href="https://openstreetmap.org/">OpenStreetMap</a> contributors'
-      />
+      <TileLayer url={tileUrl} attribution="" />
       {markers.map((marker, idx) => (
         <Marker
           key={idx}
