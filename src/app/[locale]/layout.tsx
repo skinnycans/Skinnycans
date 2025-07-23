@@ -9,6 +9,8 @@ import { cn } from '@/lib/utils'
 import { SiteHeader } from '@/components/site-header'
 import { NextIntlClientProvider } from 'next-intl'
 import Footer from '@/components/Footer'
+import Restriction from '@/components/Restriction'
+import { Toaster } from '@/components/ui/sonner'
 
 const amiri = Amiri({
   variable: '--font-amiri',
@@ -65,6 +67,8 @@ export default async function RootLayout({
     messages = {} // fallback to empty messages or handle 404
   }
 
+  const siteConfig = getSiteConfig(locale)
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
@@ -80,10 +84,14 @@ export default async function RootLayout({
         <div className="relative flex min-h-screen flex-col">
           <SiteHeader locale={locale} />
           <NextIntlClientProvider locale={locale} messages={messages}>
-            <div className="flex-1">{children}</div>
+            <div className="flex-1">
+              <Restriction config={siteConfig} />
+              {children}
+            </div>
           </NextIntlClientProvider>
           <Footer locale={locale} />
         </div>
+        <Toaster />
       </body>
     </html>
   )

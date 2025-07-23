@@ -73,6 +73,7 @@
     "hard_lemonade_product_intro_blend": "Blandet med økologisk vodka av høy kvalitet. Perfekt balansert – forfriskende lett, men likevel luksuriøs.",
     "hard_lemonade_product_highlights": [
       "4 % alkohol",
+      "Økologisk",
       "100 % sukkerfri",
       "Allergenfri",
       "Veganskvennlig",
@@ -86,6 +87,7 @@
     "hard_berries_product_intro_blend": "Blandet med økologisk vodka av høy kvalitet. Perfekt balansert – forfriskende lett, men likevel overdådig.",
     "hard_berries_product_highlights": [
       "4 % alkohol",
+      "Økologisk",
       "100 % sukkerfri",
       "Allergenfri",
       "Veganvennlig",
@@ -116,7 +118,8 @@
     "bbs_story_tagline": "mer enn du tror.\nDe fleste ser på alkohol som hovedproblemet. Men det er ofte det som følger med – sukker, kalorier, overbelastning – som gjør den virkelige skaden.",
     "partner_consequences": "Spre den tynne livsstilen",
     "partner_story": "Bli en partner",
-    "partner_story_tagline": "Bli med på vårt oppdrag om å gjøre alkohol sunnere, én boks om gangen."
+    "partner_story_tagline": "Bli med på vårt oppdrag om å gjøre alkohol sunnere, én boks om gangen.",
+    "wait": "Bli med på ventelisten"
   },
   "BBS": {
     "research_shows_heading": "Forskning viser",
@@ -146,7 +149,8 @@
     "backing-1": "En populasjonsbasert kohortstudie fant at regelmessig inntak av sukkerholdige alkoholholdige drikker er knyttet til betydelig høyere leverfettinnhold enn alkohol alene.",
     "backing-2": "Forbruk av alkoholholdige og sukkerholdige drikker er assosiert med opphopning av leverfett",
     "backing-3": "Overdrevent inntak av sukker i kosten induserer kronisk lavgradig betennelse",
-    "read": "Les studien"
+    "read": "Les studien",
+    "bbs_header": "Sukker og alkohol sammen belaster leveren betydelig mer enn alkohol alene. Samtidig utløser høyt sukkerinntak betennelse – noe som forverrer den totale metabolske effekten."
   },
   "Partner": {
     "partner": "Partner",

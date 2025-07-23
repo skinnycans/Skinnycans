@@ -26,6 +26,15 @@ export type SiteConfig = {
   button_banner: string
   placeholder: string
   submit: string
+  request: string
+  restrictions: {
+    welcome: string
+    check: string
+    yes: string
+    no: string
+    read: string
+    more: string
+  }
 }
 
 const siteConfigBase: Record<Locale, SiteConfig> = {
@@ -93,6 +102,15 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     button_banner: 'Read The Full Story',
     placeholder: 'Enter your email',
     submit: 'submit',
+    request: 'submit a request',
+    restrictions: {
+      welcome: 'Welcome!',
+      check: 'Just checking, you are over 21?',
+      yes: 'Yes, I’m over 21 years old',
+      no: 'No, I’m under 21 years old',
+      read: 'Also, this site uses cookies to give you the best possible experience. By proceedind to the site you agree to cookies being used. Read more about cookies',
+      more: 'here',
+    },
   },
   no: {
     name: 'Tynne bokser',
@@ -158,6 +176,15 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     button_banner: 'Les hele historien',
     placeholder: 'Skriv inn e-postadressen din',
     submit: 'sende inn',
+    request: 'sende inn en forespørsel',
+    restrictions: {
+      welcome: 'Velkommen!',
+      check: 'Bare sjekker, er du over 21?',
+      yes: 'Ja, jeg er over 21 år gammel',
+      no: 'Nei, jeg er under 21 år gammel',
+      read: 'Dette nettstedet bruker også informasjonskapsler for å gi deg best mulig opplevelse. Ved å gå videre til nettstedet godtar du bruk av informasjonskapsler. Les mer om informasjonskapsler',
+      more: 'her',
+    },
   },
   se: {
     name: 'Skinny Cans',
@@ -223,6 +250,15 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     button_banner: 'Loga olles muitalusa',
     placeholder: 'Čále iežat e-poastta',
     submit: 'guođđit',
+    request: 'sáddet jearaldaga',
+    restrictions: {
+      welcome: 'Bures boahtin!',
+      check: 'Dárkkistan dušše, leat go badjel 21 jagi?',
+      yes: 'Juo, mun lean badjel 21 jagi boaris',
+      no: 'Ii, mun lean vuollel 21 jagi boaris',
+      read: 'Dát siidu geavaha maid cookies vai oaččut buoremus vejolaš vásáhusa. Go joatkkát siidui, de dohkkehat ahte cookies geavahuvvojit. Loga eanet gáhkuid birra',
+      more: 'dáppe',
+    },
   },
 }
 

@@ -73,6 +73,7 @@
     "hard_lemonade_product_intro_blend": "Seaguhuvvon alla kvalitehta luomu vodkain. Áibbas dássedis — ođasmahtti liegga, muhto liikká čáppa.",
     "hard_lemonade_product_highlights": [
       "4% alkohola",
+      "Luomu",
       "100% sohkarkeahtes",
       "Allergenakeahtes",
       "Vegan-guoskevaš",
@@ -86,6 +87,7 @@
     "hard_berries_product_intro_blend": "Seaguhuvvon alla kvalitehta luomu vodkain. Áibbas dássedis — ođasmahtti liegga, muhto liikká čáppa.",
     "hard_berries_product_highlights": [
       "4% alkohola",
+      "Luomu",
       "100% sohkarkeahtes",
       "Allergenakeahtes",
       "Vegan-guoskevaš",
@@ -116,7 +118,8 @@
     "bbs_story_tagline": "eanet go don jáhkát.\nEanaš olbmot oidnet alkohola váldováttisvuohtan. Muhto dávjá lea dat mii dasa boahtá - sohkar, kaloriijaid, badjelmeare - mii dagaha duohta vahága.",
     "partner_consequences": "Spread the Skinny Lifestyle",
     "partner_story": "Šaddá ovttasbargoguoibmin",
-    "partner_story_tagline": "Searvva min ulbmilii dahkat alkohola dearvvašlažžan, okta sáhttá oktanaga."
+    "partner_story_tagline": "Searvva min ulbmilii dahkat alkohola dearvvašlažžan, okta sáhttá oktanaga.",
+    "wait": "Searvva vuordinlistui"
   },
   "BBS": {
     "research_shows_heading": "Dutkančájáhusat",
@@ -146,7 +149,8 @@
     "backing-1": "Populašuvdnavuođđuduvvon kohortadutkamuš gávnnai ahte dábálaš geavaheapmi sohkar-smávva alkoholalaš juhkamušain lea čadnon mearkkašahtti eambbo njuoratmánnái go duššefal alkohola.",
     "backing-2": "Alkohola- ja sohkar-smávva juhkamušaid geavaheapmi lea čadnon njuoratmánnái čoagganeapmái",
     "backing-3": "Badjelmeare sohkkariid váldin dagaha bissovaš alla dási buozalmasvuođa",
-    "read": "Loga oahpu"
+    "read": "Loga oahpu",
+    "bbs_header": "Sohkar ja alkohola ovttas bidjet mearkkašahtti eanet deattu njuoratmánnái go dušše alkohola. Seammás dagaha stuorra sohkargeavaheapmi buozalmasvuođa — mii vearránahttá ollislaš metabolalaš váikkuhusaid."
   },
   "Partner": {
     "partner": "Guoibmi",

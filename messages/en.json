@@ -72,6 +72,7 @@
     "hard_lemonade_product_intro_blend": "Blended with high-quality organic vodka. Perfectly balanced — refreshingly light, yet indulgent.",
     "hard_lemonade_product_highlights": [
       "4% alcohol",
+      "Organic",
       "100% sugar-free",
       "Allergen-free",
       "Vegan-friendly",
@@ -85,6 +86,7 @@
     "hard_berries_product_intro_blend": "Blended with high-quality organic vodka. Perfectly balanced — refreshingly light, yet indulgent.",
     "hard_berries_product_highlights": [
       "4% alcohol",
+      "Organic",
       "100% sugar-free",
       "Allergen-free",
       "Vegan-friendly",
@@ -116,7 +118,8 @@
     "bbs_story_tagline": "more than you think.\nMost people see alcohol as the main problem. But it's often what comes with it - sugar, calories, overload - that does the real damage.",
     "partner_consequences": "Spread the Skinny Lifestyle",
     "partner_story": "Become a partner",
-    "partner_story_tagline": "Join our mission to make alcohol healthier, one can at a time."
+    "partner_story_tagline": "Join our mission to make alcohol healthier, one can at a time.",
+    "wait": "Join the waiting list"
   },
   "BBS": {
     "research_shows_heading": "Research shows",
@@ -146,7 +149,8 @@
     "backing-1": "A population-based cohort study found that regular consumption of sugar-sweetened alcoholic drinks is linked to significantly higher liver fat than alcohol alone.",
     "backing-2": "Consumption of Alcoholic and Sugar-Sweetened Beverages is Associated with Liver Fat Accumulation",
     "backing-3": "Excessive intake of dietary sugars induces chronic low-grade inflammation",
-    "read": "Read Study"
+    "read": "Read Study",
+    "bbs_header": "Sugar and alcohol together put significantly more strain on the liver than alcohol alone. At the same time, high sugar intake triggers inflammation — worsening the total metabolic impact."
   },
   "Partner": {
     "partner": "Partner",

@@ -3,16 +3,15 @@ import React from 'react'
 
 import { useTranslations } from 'next-intl'
 import { StaticImport } from 'next/dist/shared/lib/get-img-props'
-import WaitlistForm from './WaitlistForm'
-import { SiteConfig } from '@/config/site-i18n'
+import Link from 'next/link'
+import { Icons } from './icons'
 
 interface StoryBannerProps {
   page: string
   img: string | StaticImport
-  config?: SiteConfig
 }
 
-export default function StoryBanner({ page, img, config }: StoryBannerProps) {
+export default function StoryBanner({ page, img }: StoryBannerProps) {
   const t = useTranslations('Index')
 
   return (
@@ -45,7 +44,16 @@ export default function StoryBanner({ page, img, config }: StoryBannerProps) {
             ))}
         </p>
 
-        {page === 'partner' ? <WaitlistForm config={config} /> : ''}
+        {page === 'partner' ? (
+          <Link
+            href={'/waitlist'}
+            className="flex items-center justify-center gap-2 bg-white px-8 py-3 font-varela text-sm uppercase tracking-wider text-primary transition-colors duration-300 hover:bg-primary hover:text-white md:text-base"
+          >
+            {t('wait')} <Icons.rightArrow className="h-5 w-5" />
+          </Link>
+        ) : (
+          ''
+        )}
       </div>
     </div>
   )

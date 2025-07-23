@@ -5,6 +5,7 @@ import BBSBg from '@/assets/bbs.png'
 import ScienceResearch from '@/components/ScienceResearch'
 import NewNeed from '@/components/NewNeed'
 import ScientificBacking from '@/components/ScientificBacking'
+import BBSBanner from '@/components/BBSBanner'
 
 export default function Page({
   params: { locale },
@@ -19,6 +20,7 @@ export default function Page({
       <ScienceResearch />
       <NewNeed />
       <ScientificBacking />
+      <BBSBanner />
     </main>
   )
 }
