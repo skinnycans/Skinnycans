@@ -123,13 +123,13 @@
     "alcohol_heading": "Alcohol and your body",
     "alcohol_paragraph": "Alcohol puts extra stress on your organs and can trigger inflammation. That means your body has to work harder to repair itself, impacting everything from metabolism to immune response.",
     "sugar_heading": "Sugar makes it worse",
-    "sugar_paragraph": "Add large amounts of sugar like what’s found in most ready-to-drink cocktails and you get a combination your body struggles to handle.nExcess sugar is quickly converted into fat by the liver. Paired with alcohol, the metabolic load becomes even greater.",
+    "sugar_paragraph": "Add large amounts of sugar like what’s found in most ready-to-drink cocktails and you get a combination your body struggles to handle.\nExcess sugar is quickly converted into fat by the liver.",
+    "sugar_paired": "Paired with alcohol, the metabolic load becomes even greater.",
     "calories": "Calories you don’t notice",
     "calories_paragraph": "One typical RTD cocktail can contain as many calories as a full meal. This hidden load adds up — leading to weight gain and disrupting your body’s balance over time.",
 
     "new_need": "A New Need",
-    "need_paragraph": "More people than ever are looking to make smarter choices — not just in what they eat and how they move, but also in how they drink. People still want fun. They still want to enjoy life. But they want to do it in a way that feels better — for their body and their conscience.",
-
+    "need_paragraph": "More people than ever are looking to make smarter choices — not just in what they eat and how they move, but also in how they drink. People still want fun. They still want to enjoy life. But they want to do it in a way that <strong>feels better</strong> — for their body and their conscience.",
     "whySkinnyTitle": "That’s why Skinny exists",
     "whySkinnyDescription": "We created Skinny Cans to make it easier to choose smarter when you want a drink.",
     "benefits": [
@@ -139,8 +139,9 @@
       "No artificial sweeteners",
       "Built to minimize the stress alcohol puts on your body"
     ],
-    "enjoyWithoutCompromise": "So you can still enjoy — without compromise.\nIt’s not about drinking more.\nIt’s about drinking smarter.",
-
+    "enjoyWithoutCompromise": "So you can still enjoy — <strong>without compromise.</strong>",
+    "enjoy_drink": "It’s not about drinking more.",
+    "enjoy_smarter": "It’s about drinking smarter.",
     "scientificBacking": "Scientific backing",
     "backing-1": "A population-based cohort study found that regular consumption of sugar-sweetened alcoholic drinks is linked to significantly higher liver fat than alcohol alone.",
     "backing-2": "Consumption of Alcoholic and Sugar-Sweetened Beverages is Associated with Liver Fat Accumulation",

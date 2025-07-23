@@ -120,12 +120,12 @@
     "alcohol_heading": "Alkohola ja du rumaš",
     "alcohol_paragraph": "Alkohola bidjá liigestreassa du orgánaide ja sáhttá dagahit buozalmasvuođa. Dat mearkkaša ahte du rumaš ferte bargat garraseappot divvut iežas, ja dat váikkuha buot metabolismmas gitta immunvástádussii.",
     "sugar_heading": "Sohkar dagaha dan vearrábun",
-    "sugar_paragraph": "Bidjat stuorra meari sohkkara nugo dat mii gávdno eanaš gárvves juhkamušain ja oaččut dakkár kombinašuvnna maid du rumaš ii nagot gieđahallat.nLiige sohkar rievdaduvvo jođánit njuoratmánnái. Alkohola ovttastahttojuvvon šaddá metabolalaš lassáneapmi ain stuorát.",
+    "sugar_paragraph": "Bidjat stuorra meari sohkkara nugo dat mii gávdno eanaš gárvves juhkamušain ja oaččut dakkár kombinašuvnna maid du rumaš ii nagot gieđahallat.\nLiige sohkar rievdaduvvo jođánit njuoratmánnái.",
+    "sugar_paired": "Alkohola ovttastahttojuvvon šaddá metabolalaš lassáneapmi ain stuorát.",
     "calories": "Kaloriijaid maid it fuomáš",
     "calories_paragraph": "Okta dábálaš RTD-cocktail sáhttá sisdoallat seamma ollu kaloriijaid go olles borramuš. Dát čihkkojuvvon lassi lassána — mii dagaha ahte šaddá deaddu ja hehtte du rupmaša balánssa áiggi mielde.",
     "new_need": "Ođđa dárbu",
-    "need_paragraph": "Eanet olbmot go goassige ovdal háliidit dahkat čeahpibut válljemiid — eai dušše das maid borret ja mo lihkadit, muhto maiddái das mo juhket. Olbmot háliidit ain somás. Sii háliidit ain návddašit eallima. Muhto sii háliidit dahkat dan dakkár vuogi mielde mii dovdá buoret — iežaset rupmaša ja iežaset oamedovddu ovddas.",
-
+    "need_paragraph": "Eanet olbmot go goassige ovdal háliidit dahkat čeahpibut válljemiid — eai dušše das maid borret ja mo lihkadit, muhto maiddái das mo juhket. Olbmot háliidit ain somás. Sii háliidit ain návddašit eallima. Muhto sii háliidit dahkat dan dakkár vuogi mielde mii <strong>dovdá buoret</strong> — iežaset rupmaša ja iežaset oamedovddu ovddas.",
     "whySkinnyTitle": "Dan dihte Skinny gávdno",
     "whySkinnyDescription": "Mii leat ráhkadan Skinny Cans vai lea álkit válljet čeahpibut go háliidat juhkat.",
     "benefits": [
@@ -135,7 +135,9 @@
       "Ii leat artifisála søteávdnasat",
       "Dahkkojuvvon nu ahte unnida dan streassa maid alkohola bidjá du rupmašii"
     ],
-    "enjoyWithoutCompromise": "Nu ahte sáhtát ain návddašit – kompromissa haga.\n Dás ii leat sáhka eanet juhkamis.\n Dás lea sáhka čeahpibut juhkat.",
+    "enjoyWithoutCompromise": "Nu ahte sáhtát ain návddašit – <strong>kompromissa haga.</strong>",
+    "enjoy_drink": "Dás ii leat sáhka eanet juhkamis.",
+    "enjoy_smarter": "Dás lea sáhka čeahpibut juhkat.",
 
     "scientificBacking": "Dieđalaš doarjja",
     "backing-1": "Populašuvdnavuođđuduvvon kohortadutkamuš gávnnai ahte dábálaš geavaheapmi sohkar-smávva alkoholalaš juhkamušain lea čadnon mearkkašahtti eambbo njuoratmánnái go duššefal alkohola.",

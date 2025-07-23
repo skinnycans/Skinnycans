@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import Backing1 from '@/assets/backing_1.png'
 import Backing2 from '@/assets/backing_2.png'
-import Backing3 from '@/assets/backing_3.png'
+import Backing3 from '@/assets/backing_3.jpg'
 import BackingBg from '@/assets/backings_bg.png'
 import Link from 'next/link'
 import { Icons } from './icons'
@@ -18,12 +18,12 @@ export default function ScientificBacking() {
         </h2>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="space-y-4">
-            <div className="max-h-80 overflow-hidden">
+            <div className="max-h-60 overflow-hidden">
               <Image
                 src={Backing1}
                 alt="Study Image"
                 sizes="100%"
-                className="h-full w-full object-cover object-center"
+                className="h-[180px] w-auto object-contain object-center md:ml-5 lg:ml-10"
               />
             </div>
             <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
@@ -38,12 +38,12 @@ export default function ScientificBacking() {
           </div>
 
           <div className="space-y-4">
-            <div className="max-h-80 overflow-hidden">
+            <div className="max-h-60 overflow-hidden">
               <Image
                 src={Backing2}
                 alt="Study Image"
                 sizes="100%"
-                className="h-full w-full object-cover object-center"
+                className="h-[180px] w-auto object-contain object-center md:ml-5 lg:ml-10"
               />
             </div>
             <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
@@ -58,12 +58,12 @@ export default function ScientificBacking() {
           </div>
 
           <div className="space-y-4">
-            <div className="max-h-80 overflow-hidden">
+            <div className="max-h-60 overflow-hidden">
               <Image
                 src={Backing3}
                 alt="Study Image"
                 sizes="100%"
-                className="h-full w-full object-cover object-center"
+                className="h-[180px] w-auto object-contain object-center md:ml-5 lg:ml-10"
               />
             </div>
             <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">

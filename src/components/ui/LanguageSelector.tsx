@@ -33,13 +33,15 @@ export default function LanguageSelector({
     router.push(newPath)
   }
 
+  const headerCo = normalizedPath === '/story' || normalizedPath === '/bbs'
+
   return (
     <div
       className={`font-mono ${width ? width : 'min-w-[16rem]'} tracking-widest`}
     >
       <Select value={locale} defaultValue="en" onValueChange={switchLanguage}>
         <SelectTrigger
-          className={`border-0 ${width ? width : ''} uppercase shadow-none  focus-visible:border-0 focus-visible:ring-0 ${normalizedPath === '/story' && !scroll ? 'text-white' : 'text-primary'} text-xs`}
+          className={`border-0 ${width ? width : ''} uppercase shadow-none  focus-visible:border-0 focus-visible:ring-0 ${headerCo && !scroll ? 'text-white' : 'text-primary'} text-xs`}
         >
           <SelectValue />
         </SelectTrigger>

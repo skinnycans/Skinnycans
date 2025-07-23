@@ -8,10 +8,6 @@ export default function ScienceResearch() {
 
   const gridInfo = [
     {
-      heading: 'research_shows_heading',
-      paragrahInfo: 'research_shows_paragraph',
-    },
-    {
       heading: 'alcohol_heading',
       paragrahInfo: 'alcohol_paragraph',
     },
@@ -35,10 +31,38 @@ export default function ScienceResearch() {
                 {t(items.heading)}
               </h3>
               <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
-                {t(items.paragrahInfo)}
+                {t(items.paragrahInfo)
+                  .split('\n')
+                  .map((line, idx, arr) => (
+                    <React.Fragment key={idx}>
+                      {line}
+                      {idx !== arr.length - 1 && <br />}
+                    </React.Fragment>
+                  ))}
               </p>
+              {items.paragrahInfo === 'sugar_paragraph' ? (
+                <p className="max-w-[450px] font-amiri text-sm font-bold text-primary md:text-base lg:text-lg">
+                  {t('sugar_paired')}
+                </p>
+              ) : (
+                ''
+              )}
             </div>
           ))}
+          <div className="relative z-10 space-y-2 pt-8 md:pt-10 lg:pt-14">
+            <h2 className="font-amiri text-3xl text-primary md:text-4xl lg:text-5xl xl:text-6xl">
+              {t('new_need')}
+            </h2>
+            <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
+              {t.rich('need_paragraph', {
+                strong: (chunks) => (
+                  <strong className="font-amiri font-bold text-primary">
+                    {chunks}
+                  </strong>
+                ),
+              })}
+            </p>
+          </div>
         </div>
       </section>
       <Image
