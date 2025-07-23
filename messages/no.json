@@ -67,7 +67,6 @@
         "text": "av disse voksne fortjener bedre valg."
       }
     ],
-
     "hard_lemonade_product": "Hard limonade",
     "hard_lemonade_product_intro_title": "Sprø. Livlig. Frisk.",
     "hard_lemonade_product_intro_description": "Laget med verdens fineste sitroner – håndplukket fra de solfylte lundene på Sicilia i Sør-Italia. En sprø, livlig sitrusprofil med den naturlige sødmen og munnfølelsen av ekte rørsukker – søtet kun med rent steviablad fra Sør-Amerika og naturlig fermentert erytritol.",
@@ -81,7 +80,6 @@
       "Gir ingen bakrus"
     ],
     "hard_lemonade_find_reseller": "Finn forhandler",
-
     "hard_berries_product": "harde bær",
     "hard_berries_product_intro_title": "Saftig. Dristig. Sofistikert.",
     "hard_berries_product_intro_description": "En eksklusiv blanding av bær – håndplukket fra de solfylte jordene i Barcelona til den rike, fruktbare jorden på Sicilia. En dyp, saftig produktprofil med den naturlige sødmen og munnfølelsen av ekte rørsukker – søtet kun med rent steviablad fra Sør-Amerika og naturlig fermentert erytritol.",
@@ -95,7 +93,6 @@
       "Gir ingen bakrus"
     ],
     "hard_berries_find_reseller": "Finn forhandler",
-
     "skinny_consequences": "Skinny Consequences",
     "skinny_story_tagline": "Brygget for hånd. Født av frustrasjon. Bygget for frihet.",
     "story_heading": "Historien",
@@ -113,11 +110,15 @@
     "story_today": "I dag er vi Skinny.",
     "story_tagline": "For de som danser hele natten og trener ved daggry. For de som vil ha helse uten å kjede seg. For de som lever høyt og lever lett.",
     "story_footer": "Skinny Cans\nHjem brygget. Utviklet for å være sunnere.\n Glede uten anger. Akkurat som det skal være.\n Skål!",
-    "event_overlay_text": "Brygget for hånd. Støttet av\n vitenskap. Bygget for helse"
+    "event_overlay_text": "Brygget for hånd. Støttet av\n vitenskap. Bygget for helse",
+    "bbs_consequences": "Smartere drikking",
+    "bbs_story": "Støttet av vitenskap",
+    "bbs_story_tagline": "mer enn du tror.\nDe fleste ser på alkohol som hovedproblemet. Men det er ofte det som følger med – sukker, kalorier, overbelastning – som gjør den virkelige skaden.",
+    "partner_consequences": "Spre den tynne livsstilen",
+    "partner_story": "Bli en partner",
+    "partner_story_tagline": "Bli med på vårt oppdrag om å gjøre alkohol sunnere, én boks om gangen."
   },
-
   "BBS": {
-    "heading": "Støttet av vitenskapen",
     "research_shows_heading": "Forskning viser",
     "research_shows_paragraph": "Hva du velger å drikke betyr mer enn du tror. De fleste ser på alkohol som hovedproblemet. Men det er ofte det som følger med – sukker, kalorier, overbelastning som gjør den virkelige skaden.",
     "alcohol_heading": "Alkohol og kroppen din",
@@ -141,14 +142,12 @@
     "enjoyWithoutCompromise": "Slik at du fortsatt kan nyte – <strong>uten kompromisser.</strong>",
     "enjoy_drink": "Det handler ikke om å drikke mer.",
     "enjoy_smarter": "Det handler om å drikke smartere.",
-
     "scientificBacking": "Vitenskapelig støtte",
     "backing-1": "En populasjonsbasert kohortstudie fant at regelmessig inntak av sukkerholdige alkoholholdige drikker er knyttet til betydelig høyere leverfettinnhold enn alkohol alene.",
     "backing-2": "Forbruk av alkoholholdige og sukkerholdige drikker er assosiert med opphopning av leverfett",
     "backing-3": "Overdrevent inntak av sukker i kosten induserer kronisk lavgradig betennelse",
     "read": "Les studien"
   },
-
   "Partner": {
     "partner": "Partner",
     "title": "grunn til å tro",

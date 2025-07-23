@@ -66,7 +66,6 @@
         "text": "of these adults deserve better choices."
       }
     ],
-
     "hard_lemonade_product": "Hard Lemonade",
     "hard_lemonade_product_intro_title": "Crisp. Vibrant. Fresh.",
     "hard_lemonade_product_intro_description": "Crafted with the world’s finest lemons — hand-picked from the sun-drenched groves of Sicily in southern Italy. A crisp, vibrant citrus profile with the natural sweetness and mouthfeel of real cane sugar — sweetened only with pure stevia leaf from South America and naturally fermented erythritol.",
@@ -80,7 +79,6 @@
       "Gives no hangover"
     ],
     "hard_lemonade_find_reseller": "Find reseller",
-
     "hard_berries_product": "hard berries",
     "hard_berries_product_intro_title": "Juicy. Bold. Sophisticated.",
     "hard_berries_product_intro_description": "An exclusive blend of berries — hand-selected from the sun-drenched fields of Barcelona to the rich, fertile soils of Sicily. A deep, juicy product profile with the natural sweetness and mouthfeel of real cane sugar — sweetened only with pure stevia leaf from South America and naturally fermented erythritol.",
@@ -94,7 +92,6 @@
       "Gives no hangover"
     ],
     "hard_berries_find_reseller": "Find reseller",
-
     "skinny_consequences": "Skinny Consequences",
     "skinny_story": "The Skinny Story",
     "skinny_story_tagline": "Brewed by hand. Born out of frustration. Built for freedom.",
@@ -113,11 +110,15 @@
     "story_today": "Today, we’re Skinny.",
     "story_tagline": "For the ones who dance all night and train at dawn. For the ones who want health without boring. For the ones who live loud and live light.",
     "story_footer": "Skinny Cans\nHome brewed. Designed to be healthier.\n Joy without regret. Just like it should be.\n Cheers!",
-    "event_overlay_text": "brewed by hand. backed by\n science. built for health"
+    "event_overlay_text": "brewed by hand. backed by\n science. built for health",
+    "bbs_consequences": "Smarter drinking",
+    "bbs_story": "Research shows",
+    "bbs_story_tagline": "more than you think.\nMost people see alcohol as the main problem. But it's often what comes with it - sugar, calories, overload - that does the real damage.",
+    "partner_consequences": "Spread the Skinny Lifestyle",
+    "partner_story": "Become a partner",
+    "partner_story_tagline": "Join our mission to make alcohol healthier, one can at a time."
   },
-
   "BBS": {
-    "heading": "Backed by science",
     "research_shows_heading": "Research shows",
     "research_shows_paragraph": "What you choose to drink matters more than you think.Most people see alcohol as the main problem. But it’s often what comes with it — sugar, calories, overload that does the real damage.",
     "alcohol_heading": "Alcohol and your body",
@@ -127,7 +128,6 @@
     "sugar_paired": "Paired with alcohol, the metabolic load becomes even greater.",
     "calories": "Calories you don’t notice",
     "calories_paragraph": "One typical RTD cocktail can contain as many calories as a full meal. This hidden load adds up — leading to weight gain and disrupting your body’s balance over time.",
-
     "new_need": "A New Need",
     "need_paragraph": "More people than ever are looking to make smarter choices — not just in what they eat and how they move, but also in how they drink. People still want fun. They still want to enjoy life. But they want to do it in a way that <strong>feels better</strong> — for their body and their conscience.",
     "whySkinnyTitle": "That’s why Skinny exists",
@@ -148,7 +148,6 @@
     "backing-3": "Excessive intake of dietary sugars induces chronic low-grade inflammation",
     "read": "Read Study"
   },
-
   "Partner": {
     "partner": "Partner",
     "title": "reason to beleive",

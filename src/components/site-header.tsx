@@ -20,8 +20,14 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
   const siteConfig = getSiteConfig(locale)
   const pathname = usePathname()
   const normalizedPath = pathname.replace(`/${locale}`, '') || '/'
-  const headerCo = normalizedPath === '/story' || normalizedPath === '/bbs'
-  const headerNo = normalizedPath !== '/story' && normalizedPath !== '/bbs'
+  const headerCo =
+    normalizedPath === '/story' ||
+    normalizedPath === '/bbs' ||
+    normalizedPath === '/partner'
+  const headerNo =
+    normalizedPath !== '/story' &&
+    normalizedPath !== '/bbs' &&
+    normalizedPath !== '/partner'
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 

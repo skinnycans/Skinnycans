@@ -24,6 +24,8 @@ export type SiteConfig = {
   built: string
   banner_description: string
   button_banner: string
+  placeholder: string
+  submit: string
 }
 
 const siteConfigBase: Record<Locale, SiteConfig> = {
@@ -89,6 +91,8 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     built: 'Built for\n health',
     banner_description: 'Skinny is here to change drinking for good.',
     button_banner: 'Read The Full Story',
+    placeholder: 'Enter your email',
+    submit: 'submit',
   },
   no: {
     name: 'Tynne bokser',
@@ -152,6 +156,8 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     built: 'Bygget for \nhelse',
     banner_description: 'Skinny er her for å forandre drikking for godt.',
     button_banner: 'Les hele historien',
+    placeholder: 'Skriv inn e-postadressen din',
+    submit: 'sende inn',
   },
   se: {
     name: 'Skinny Cans',
@@ -215,6 +221,8 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     built: 'Huksejuvvon \ndearvvašvuođa várás',
     banner_description: 'Skinny lea dáppe rievdadeamen juhkanvuođa buorrin.',
     button_banner: 'Loga olles muitalusa',
+    placeholder: 'Čále iežat e-poastta',
+    submit: 'guođđit',
   },
 }
 

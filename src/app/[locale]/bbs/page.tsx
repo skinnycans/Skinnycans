@@ -1,5 +1,4 @@
 import StoryBanner from '@/components/StoryBanner'
-import { useTranslations } from 'next-intl'
 import { unstable_setRequestLocale } from 'next-intl/server'
 import React from 'react'
 import BBSBg from '@/assets/bbs.png'
@@ -14,11 +13,9 @@ export default function Page({
 }) {
   unstable_setRequestLocale(locale)
 
-  const t = useTranslations('BBS')
-
   return (
     <main>
-      <StoryBanner title={t('heading')} img={BBSBg} />
+      <StoryBanner page="bbs" img={BBSBg} />
       <ScienceResearch />
       <NewNeed />
       <ScientificBacking />

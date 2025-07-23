@@ -1,5 +1,4 @@
 import React from 'react'
-import { useTranslations } from 'next-intl'
 import { SiteConfig } from '@/config/site-i18n'
 import { Icons } from './icons'
 import { motion, AnimatePresence } from 'framer-motion'

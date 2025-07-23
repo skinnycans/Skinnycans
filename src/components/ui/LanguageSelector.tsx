@@ -33,7 +33,10 @@ export default function LanguageSelector({
     router.push(newPath)
   }
 
-  const headerCo = normalizedPath === '/story' || normalizedPath === '/bbs'
+  const headerCo =
+    normalizedPath === '/story' ||
+    normalizedPath === '/bbs' ||
+    normalizedPath === '/partner'
 
   return (
     <div
