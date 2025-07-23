@@ -4,7 +4,7 @@ import React from 'react'
 import Backing1 from '@/assets/backing_1.png'
 import Backing2 from '@/assets/backing_2.png'
 import Backing3 from '@/assets/backing_3.jpg'
-import BackingBg from '@/assets/backings_bg.png'
+import BackingBg from '@/assets/backing.png'
 import Link from 'next/link'
 import { Icons } from './icons'
 
@@ -82,7 +82,7 @@ export default function ScientificBacking() {
         src={BackingBg}
         alt="Background"
         sizes="100%"
-        className="absolute top-0 z-0 h-full w-full object-cover object-left"
+        className="absolute bottom-0 z-0 h-full w-full object-contain object-left"
       />
     </div>
   )

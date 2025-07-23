@@ -33,16 +33,20 @@ export default function StoryBanner({ page, img }: StoryBannerProps) {
         <h2 className="font-amiri text-3xl uppercase md:text-5xl lg:text-6xl">
           {t(`${page}_story`)}
         </h2>
-        <p className="mx-auto max-w-2xl font-varela text-base capitalize tracking-wide">
-          {t(`${page}_story_tagline`)
-            .split('\n')
-            .map((line, idx, arr) => (
-              <React.Fragment key={idx}>
-                {line}
-                {idx !== arr.length - 1 && <br />}
-              </React.Fragment>
-            ))}
-        </p>
+        {page !== 'bbs' ? (
+          <p className="mx-auto max-w-2xl font-varela text-base capitalize tracking-wide">
+            {t(`${page}_story_tagline`)
+              .split('\n')
+              .map((line, idx, arr) => (
+                <React.Fragment key={idx}>
+                  {line}
+                  {idx !== arr.length - 1 && <br />}
+                </React.Fragment>
+              ))}
+          </p>
+        ) : (
+          ''
+        )}
 
         {page === 'partner' ? (
           <Link

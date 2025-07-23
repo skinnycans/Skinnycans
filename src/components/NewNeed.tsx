@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import NewNeedImg from '@/assets/new_need.png'
 import { useTranslations } from 'next-intl'
-import BGNeed from '@/assets/new_need_bg.png'
 
 export default function NewNeed() {
   const t = useTranslations('BBS')
@@ -11,23 +10,9 @@ export default function NewNeed() {
 
   return (
     <>
-      <div className="container relative mt-10 overflow-hidden pb-14 lg:-mt-10">
-        <Image
-          src={BGNeed}
-          alt="BG"
-          sizes="100%"
-          className="absolute top-0 z-0 h-full w-full object-cover object-left md:object-contain"
-        />
-        <section className="grid items-center gap-10 md:grid-cols-2">
-          <div>
-            <Image
-              src={NewNeedImg}
-              alt="Image"
-              sizes="100%"
-              className="h-full w-full max-w-[450px] object-cover object-center"
-            />
-          </div>
-          <div className="relative z-10 space-y-2 md:pt-20">
+      <div className="container relative mt-10 overflow-hidden pb-14 lg:mt-20 ">
+        <section className="grid items-center gap-10 md:grid-cols-2 ">
+          <div className="relative z-10 space-y-2">
             <h3 className="font-amiri text-3xl text-primary lg:text-4xl">
               {t('whySkinnyTitle')}
             </h3>
@@ -56,6 +41,14 @@ export default function NewNeed() {
             <p className="max-w-[450px] font-varela text-sm text-primary lg:text-base xl:text-lg">
               {t('enjoy_smarter')}
             </p>
+          </div>
+          <div>
+            <Image
+              src={NewNeedImg}
+              alt="Image"
+              sizes="100%"
+              className="h-full w-full max-w-[450px] object-cover object-center"
+            />
           </div>
         </section>
       </div>

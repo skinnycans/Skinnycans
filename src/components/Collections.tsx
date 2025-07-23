@@ -5,12 +5,11 @@ import SodaOne from '@/assets/skinny-can-one.png'
 import SodaTwo from '@/assets/skinny-can-two.png'
 
 import BgOne from '@/assets/selection-bg-one.png'
-import BgTwo from '@/assets/selection-bg-two.svg'
+import BgTwo from '@/assets/selection-bg-two.png'
 
 import Image from 'next/image'
 import { Icons } from './icons'
 import Link from 'next/link'
-import { hash } from 'crypto'
 
 export default function Collections() {
   const t = useTranslations('Index')
@@ -87,7 +86,7 @@ export default function Collections() {
           src={BgTwo}
           alt="Background"
           sizes="100%"
-          className="absolute -bottom-1/4 left-0 md:translate-y-16"
+          className="absolute bottom-14 left-0 md:translate-y-16"
         />
       </div>
     </div>

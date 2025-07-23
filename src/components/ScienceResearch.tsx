@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl'
 import BGImage from '@/assets/science_research_img.png'
+import BGImage1 from '@/assets/need-happen.png'
 import Image from 'next/image'
 import React from 'react'
 
@@ -8,12 +9,17 @@ export default function ScienceResearch() {
 
   const gridInfo = [
     {
-      heading: 'alcohol_heading',
-      paragrahInfo: 'alcohol_paragraph',
+      heading: 'research_shows_heading',
+      paragrahInfo: 'research_shows_paragraph',
     },
+
     {
       heading: 'sugar_heading',
       paragrahInfo: 'sugar_paragraph',
+    },
+    {
+      heading: 'alcohol_heading',
+      paragrahInfo: 'alcohol_paragraph',
     },
     {
       heading: 'calories',
@@ -22,15 +28,31 @@ export default function ScienceResearch() {
   ]
 
   return (
-    <div className="relative pt-24">
-      <section className="container  relative z-10 pb-10">
-        <div className="grid gap-10 md:grid-cols-2">
+    <div className="relative ">
+      <section className="container  relative pb-10">
+        <Image
+          src={BGImage1}
+          alt="BG"
+          sizes="100%"
+          className="absolute -bottom-1/4 z-0 h-full w-full max-w-2xl object-contain object-bottom"
+        />
+        <Image
+          src={BGImage}
+          alt="BG"
+          sizes="100%"
+          className="absolute right-1/4 top-0 z-0 h-full w-full max-w-4xl object-right-top md:object-contain"
+        />
+        <div className="relative z-10 grid gap-10 pt-24 md:grid-cols-2">
           {gridInfo.map((items, index) => (
-            <div key={index} className="space-y-2">
-              <h3 className="font-amiri text-2xl text-primary md:text-3xl">
+            <div key={index} className="space-y-4">
+              <h3
+                className={`font-amiri ${index === 0 ? 'uppercase' : ''} text-2xl text-primary md:text-3xl lg:text-4xl`}
+              >
                 {t(items.heading)}
               </h3>
-              <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
+              <p
+                className={`font-amiri ${index === 0 ? 'capitalize text-primary md:text-base lg:text-lg xl:text-xl' : 'text-[#5F5F5F] md:text-base lg:text-lg'} max-w-[450px] font-varela text-sm `}
+              >
                 {t(items.paragrahInfo)
                   .split('\n')
                   .map((line, idx, arr) => (
@@ -41,7 +63,7 @@ export default function ScienceResearch() {
                   ))}
               </p>
               {items.paragrahInfo === 'sugar_paragraph' ? (
-                <p className="max-w-[450px] font-amiri text-sm font-bold text-primary md:text-base lg:text-lg">
+                <p className="max-w-[480px] font-amiri text-sm font-bold text-primary md:text-base lg:text-lg">
                   {t('sugar_paired')}
                 </p>
               ) : (
@@ -49,8 +71,9 @@ export default function ScienceResearch() {
               )}
             </div>
           ))}
+          <div />
           <div className="relative z-10 space-y-2 pt-8 md:pt-10 lg:pt-14">
-            <h2 className="font-amiri text-3xl text-primary md:text-4xl lg:text-5xl xl:text-6xl">
+            <h2 className="font-amiri text-2xl text-primary md:text-3xl lg:text-4xl">
               {t('new_need')}
             </h2>
             <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
@@ -65,12 +88,6 @@ export default function ScienceResearch() {
           </div>
         </div>
       </section>
-      <Image
-        src={BGImage}
-        alt="BG"
-        sizes="100%"
-        className="absolute top-0 z-0 h-full w-full object-cover object-top md:object-contain"
-      />
     </div>
   )
 }

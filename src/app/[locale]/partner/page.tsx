@@ -1,6 +1,6 @@
 import React from 'react'
 import Invite from '@/assets/waitlist_bg.webp'
-import BackingBg from '@/assets/backings_bg.png'
+import BackingBg from '@/assets/backings_bg.svg'
 import { unstable_setRequestLocale } from 'next-intl/server'
 import Image from 'next/image'
 import StoryBanner from '@/components/StoryBanner'
@@ -21,7 +21,7 @@ export default function PartnerPage({
         src={BackingBg}
         alt="Background"
         sizes="100%"
-        className="object-left-center absolute top-0 z-0 h-full w-full object-cover"
+        className="absolute bottom-0 z-0 h-full w-full object-cover object-bottom md:-bottom-12"
       />
     </div>
   )

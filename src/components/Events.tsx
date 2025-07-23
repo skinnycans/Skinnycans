@@ -51,7 +51,7 @@ export default function Events() {
               <VideoPlayer
                 src="/Event.mp4"
                 poster="/poster.jpg"
-                autoPlay={false}
+                autoPlay={true}
                 muted
                 loop
               />

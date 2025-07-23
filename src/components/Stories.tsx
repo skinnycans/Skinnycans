@@ -27,9 +27,6 @@ export default function Stories() {
             />
             <div className="relative z-10 grid items-center gap-8 pb-4 pt-24 md:grid-cols-2 md:gap-12 xl:gap-28">
               <div className="space-y-4 lg:space-y-6">
-                <h2 className="font-amiri text-6xl text-primary md:text-7xl lg:text-8xl">
-                  {t('story_heading')}
-                </h2>
                 <p className="font-varela text-base text-[#5F5F5F] lg:text-lg">
                   {t('story_intro')}
                 </p>
@@ -170,7 +167,7 @@ export default function Stories() {
               src={StoryImage4Bg}
               alt="The Story"
               sizes="100%"
-              className="absolute -right-[12.5%] top-0 z-0 h-full w-auto object-cover opacity-30 md:h-auto md:w-full md:max-w-3xl md:opacity-60 lg:opacity-85"
+              className="absolute -right-1/4 top-0 z-0 h-full w-auto object-cover opacity-30 md:h-auto md:w-full md:max-w-3xl md:opacity-60 lg:opacity-85"
             />
             <div className="relative z-10 grid items-center gap-8 pb-20 pt-7 md:grid-cols-2 md:gap-12 xl:gap-28">
               <div className="order-2 md:order-1">

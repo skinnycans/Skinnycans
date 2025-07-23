@@ -73,12 +73,20 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/product',
       },
       {
+        title: 'The Story',
+        href: '/story',
+      },
+      {
+        title: 'Smarter drinking',
+        href: '/bbs',
+      },
+      {
         title: 'Partner',
         href: '/partner',
       },
       {
-        title: 'The Story',
-        href: '/story',
+        title: 'Contact',
+        href: '/waitlist',
       },
     ],
     links: {
@@ -139,7 +147,7 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     ],
     footerNav: [
       {
-        title: 'hjem',
+        title: 'Hjem',
         href: '/',
       },
       {
@@ -147,12 +155,20 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/product',
       },
       {
+        title: 'Historien',
+        href: '/story',
+      },
+      {
+        title: 'Smartere drikking',
+        href: '/bbs',
+      },
+      {
         title: 'Partner',
         href: '/partner',
       },
       {
-        title: 'historien',
-        href: '/story',
+        title: 'Kontakt',
+        href: '/waitlist',
       },
     ],
     links: {
@@ -213,7 +229,7 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     ],
     footerNav: [
       {
-        title: 'ruoktu',
+        title: 'Ruovttus',
         href: '/',
       },
       {
@@ -221,14 +237,23 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/product',
       },
       {
-        title: 'guoibmi',
+        title: 'Muitalus',
+        href: '/story',
+      },
+      {
+        title: 'Čeahpibut juhkan',
+        href: '/bbs',
+      },
+      {
+        title: 'Ovttasbargoguoibmi',
         href: '/partner',
       },
       {
-        title: 'muitalus',
-        href: '/story',
+        title: 'Oktavuohta',
+        href: '/waitlist',
       },
     ],
+
     links: {
       twitter: ' ',
       instagram: '',

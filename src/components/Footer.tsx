@@ -20,12 +20,12 @@ export default function Footer({ locale }: SiteHeaderProps) {
       <div className="container">
         <div className="grid items-center justify-center gap-10 md:grid-cols-2 md:justify-between">
           <div className="text-center md:text-start">
-            <ul className="flex flex-col items-center justify-center gap-3 md:flex-row md:justify-start md:gap-12">
+            <ul className="flex flex-col items-center justify-center gap-3 md:flex-row md:justify-start md:gap-8">
               {siteConfig.footerNav.map((items, index) => (
                 <li key={index} className="shrink-0">
                   <Link
                     href={items.href}
-                    className="font-verala text-sm uppercase text-primary"
+                    className="font-verala text-[15px] uppercase text-primary"
                   >
                     {items.title}
                   </Link>
