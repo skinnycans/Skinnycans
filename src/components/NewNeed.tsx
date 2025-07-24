@@ -11,7 +11,7 @@ export default function NewNeed() {
   return (
     <>
       <div className="container relative mt-10 overflow-hidden pb-14 lg:mt-20 ">
-        <section className="grid items-center gap-10 md:grid-cols-2 ">
+        <section className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2 ">
           <div className="relative z-10 space-y-2">
             <h3 className="font-amiri text-3xl text-primary lg:text-4xl">
               {t('whySkinnyTitle')}
@@ -38,7 +38,7 @@ export default function NewNeed() {
             <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] lg:text-base xl:text-lg">
               {t('enjoy_drink')}
             </p>
-            <p className="max-w-[450px] font-varela text-sm text-primary lg:text-base xl:text-lg">
+            <p className="max-w-[450px] font-amiri text-sm font-bold text-primary lg:text-base xl:text-lg">
               {t('enjoy_smarter')}
             </p>
           </div>

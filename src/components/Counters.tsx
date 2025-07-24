@@ -9,7 +9,7 @@ export default function Counters() {
   const stats = t.raw('stat_facts') as { percent: string; text: string }[]
 
   return (
-    <div className="relative bg-[#F4EA48] py-6">
+    <div className="relative mt-5 bg-[#F4EA48] py-6">
       <Image
         src={CounterBg}
         alt="Flower"
@@ -24,13 +24,13 @@ export default function Counters() {
       />
       <div className="container relative z-10">
         <div className="mx-auto max-w-4xl">
-          <div className="grid gap-5 md:grid-cols-3">
+          <div className="grid items-center gap-5 md:grid-cols-3">
             {stats.map((item, idx) => (
               <div
                 key={idx}
                 className={
                   idx === 1
-                    ? 'border-y border-primary py-4 md:border-x md:border-y-0 md:py-0'
+                    ? 'flex flex-col justify-center border-y border-primary py-4 md:max-h-20 md:border-x md:border-y-0 md:py-0'
                     : ''
                 }
               >

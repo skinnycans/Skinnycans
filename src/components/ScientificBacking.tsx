@@ -12,18 +12,18 @@ export default function ScientificBacking() {
   const t = useTranslations('BBS')
   return (
     <div className="relative py-24">
-      <div className="container relative z-10 space-y-14">
+      <div className="container relative z-10 mx-auto max-w-7xl space-y-14">
         <h2 className="text-center font-amiri text-3xl uppercase text-primary md:text-4xl lg:text-5xl xl:text-6xl">
           {t('scientificBacking')}
         </h2>
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid w-fit max-w-6xl justify-center gap-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="space-y-4">
             <div className="max-h-60 overflow-hidden">
               <Image
                 src={Backing1}
                 alt="Study Image"
                 sizes="100%"
-                className="h-[180px] w-auto object-contain object-center md:ml-5 lg:ml-10"
+                className="h-[180px] w-auto object-contain object-center md:ml-4 lg:ml-7"
               />
             </div>
             <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
@@ -46,7 +46,7 @@ export default function ScientificBacking() {
                 src={Backing2}
                 alt="Study Image"
                 sizes="100%"
-                className="h-[180px] w-auto object-contain object-center md:ml-5 lg:ml-10"
+                className="h-[180px] w-auto object-contain object-center"
               />
             </div>
             <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
@@ -67,7 +67,7 @@ export default function ScientificBacking() {
                 src={Backing3}
                 alt="Study Image"
                 sizes="100%"
-                className="h-[180px] w-auto object-contain object-center md:ml-5 lg:ml-10"
+                className="h-[180px] w-auto object-contain object-center md:ml-4 lg:ml-7"
               />
             </div>
             <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
@@ -89,7 +89,7 @@ export default function ScientificBacking() {
         src={BackingBg}
         alt="Background"
         sizes="100%"
-        className="absolute bottom-0 z-0 h-full w-full object-contain object-left"
+        className="absolute bottom-24 z-0 h-auto max-h-[800px] w-full object-contain object-left xl:left-10"
       />
     </div>
   )

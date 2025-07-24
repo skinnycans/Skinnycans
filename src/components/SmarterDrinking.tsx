@@ -37,15 +37,15 @@ export default function SmarterDrinking() {
       />
       <div className="container relative z-10">
         <section className="text-center text-primary">
-          <h2 className="font-amiri text-3xl uppercase md:text-4xl lg:text-5xl">
+          <h2 className="font-amiri text-3xl uppercase tracking-wide md:text-4xl lg:text-5xl xl:text-6xl">
             {t('smart_drinking_title')}
           </h2>
-          <div className="relative mt-5 after:absolute after:-bottom-3 after:left-1/2 after:h-0.5 after:w-10 after:-translate-x-1/2 after:rounded-full after:bg-primary">
+          <div className="relative mt-2 after:absolute after:-bottom-3 after:left-1/2 after:h-0.5 after:w-10 after:-translate-x-1/2 after:rounded-full after:bg-primary">
             <p className="font-varela text-sm font-normal tracking-wider md:text-base lg:text-lg">
               {t('smart_drinking_tagline')}
             </p>
           </div>
-          <h2 className="mt-10 font-amiri text-2xl md:text-3xl">
+          <h2 className="mt-10 font-amiri text-2xl md:text-3xl lg:text-4xl">
             {subtext.split('\n').map((line, idx, arr) => (
               <React.Fragment key={idx}>
                 {line}

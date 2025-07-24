@@ -6,7 +6,7 @@ import BannerBgTwo from '@/assets/banner-bg-two.svg'
 import BannerBgThree from '@/assets/banner-bg-three.svg'
 
 import SlideOneFlowerLeft from '@/assets/slider-one-flower-left.svg'
-import SlideOneFlowerRight from '@/assets/slider-one-flower-right.svg'
+import SlideOneFlowerRight from '@/assets/slider-one-flower-right.png'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -18,7 +18,7 @@ import clsx from 'clsx'
 import Slider from './CarouselSlide'
 import { SiteConfig } from '@/config/site-i18n'
 
-const backgroundImages = [BannerBgOne, BannerBgTwo, BannerBgThree]
+const backgroundImages = [BannerBgOne, BannerBgOne, BannerBgOne]
 
 export default function BannerCarousel(tran: SiteConfig) {
   const [activeBg, setActiveBg] = useState(0)

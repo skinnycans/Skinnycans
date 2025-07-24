@@ -47,7 +47,7 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/',
       },
       {
-        title: 'Product',
+        title: 'Products',
         href: '/product',
       },
       {
@@ -106,8 +106,8 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     brewed: `Brewed\nby hand`,
     backed: 'Backed by\n science ',
     built: 'Built for\n health',
-    banner_description: 'Skinny is here to change drinking for good.',
-    button_banner: 'Read The Full Story',
+    banner_description: 'Designed for the way we live today',
+    button_banner: 'Read Full Story',
     placeholder: 'Enter your email',
     submit: 'submit',
     request: 'submit a request',

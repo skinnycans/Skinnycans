@@ -2,7 +2,7 @@ import React from 'react'
 import CounterBg from '@/assets/counter-bg.png'
 import CounterBg1 from '@/assets/counter-bg-1.png'
 import Image from 'next/image'
-import Apos from '@/assets/apos.png'
+import Apos from '@/assets/apos-1.png'
 import { useTranslations } from 'next-intl'
 
 export default function BBSBanner() {
@@ -29,16 +29,16 @@ export default function BBSBanner() {
               src={Apos}
               alt="Apostrophe"
               sizes="100%"
-              className="absolute -left-5 top-0 h-5 w-5 rotate-180 md:-left-7 lg:-left-10"
+              className="absolute -left-5 top-0 h-5 w-5 md:-left-7"
             />
-            <h3 className="text-pretty text-center font-amiri text-xl text-primary md:text-2xl lg:text-3xl">
+            <h3 className="text-pretty text-center font-amiri text-xl italic text-primary md:text-2xl lg:text-3xl">
               {t('bbs_header')}
             </h3>
             <Image
               src={Apos}
               alt="Apostrophe"
               sizes="100%"
-              className="absolute -right-5 bottom-0 h-5 w-5 md:-right-7 lg:-right-10"
+              className="absolute -right-5 bottom-0 h-5 w-5 rotate-180  md:-right-7"
             />
           </div>
         </div>

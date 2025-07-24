@@ -34,13 +34,10 @@ export default function Page({ params }: PageProps) {
             <h1 className="font-amiri text-3xl md:text-5xl lg:text-7xl">
               {t(`${slug}_product`)}
             </h1>
-            <p className="font-varela text-sm leading-5 text-primary md:text-base">
-              {t('year_two')}-{t('year')}
-            </p>
           </section>
           <section className="relative">
-            <div className="relative z-10 mx-auto grid max-w-5xl items-center justify-center gap-7 lg:grid-cols-3">
-              <div className="h-full">
+            <div className="relative z-10 mx-auto grid max-w-5xl items-center justify-center gap-7 lg:grid-cols-5">
+              <div className="h-full  lg:col-span-2">
                 <Image
                   src={slug === 'hard_lemonade' ? SodaOne : SodaTwo}
                   alt={t(`${slug}_product`)}
@@ -48,7 +45,7 @@ export default function Page({ params }: PageProps) {
                   className="mx-auto h-full min-h-52 w-auto"
                 />
               </div>
-              <div className="relative space-y-7 py-4 lg:col-span-2">
+              <div className="relative space-y-7 py-4 lg:col-span-3">
                 <div className="absolute bottom-0 right-0 z-0 h-auto w-32 md:w-52 lg:w-60">
                   <Image
                     src={
@@ -60,14 +57,21 @@ export default function Page({ params }: PageProps) {
                     sizes="100%"
                   />
                 </div>
-                <h3 className="font-amiri text-2xl text-primary md:text-3xl lg:text-4xl">
+                <h3 className="font-amiri text-2xl text-primary md:text-3xl lg:text-4xl xl:text-5xl">
                   {t(`${slug}_product_intro_title`)}
                 </h3>
                 <p className="text-base text-[#96A69C] md:text-lg">
                   {t(`${slug}_product_intro_description`)}
                 </p>
                 <p className="text-base text-[#96A69C] md:text-lg">
-                  {t(`${slug}_product_intro_blend`)}
+                  {t(`${slug}_product_intro_blend`)
+                    .split('\n')
+                    .map((line, idx, arr) => (
+                      <React.Fragment key={idx}>
+                        {line}
+                        {idx !== arr.length - 1 && <br />}
+                      </React.Fragment>
+                    ))}
                 </p>
 
                 <ul className="list-disc space-y-1 py-3 pl-4">

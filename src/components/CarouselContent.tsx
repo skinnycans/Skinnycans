@@ -2,6 +2,7 @@ import React from 'react'
 import { SiteConfig } from '@/config/site-i18n'
 import { Icons } from './icons'
 import { motion, AnimatePresence } from 'framer-motion'
+import Link from 'next/link'
 
 type SiteConfigKey = keyof Pick<
   SiteConfig,
@@ -59,14 +60,18 @@ export default function CarouselContent({
         >
           {translation[cont.description]}
         </motion.p>
-        <motion.button
+        <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.6 }}
-          className="flex items-center justify-center gap-2 bg-[#F1F1F1] px-4 py-3 text-xs uppercase tracking-wider text-primary transition-colors duration-300 hover:bg-primary hover:text-white md:px-8 lg:text-base xl:text-lg"
         >
-          {translation[cont.btn]} <Icons.rightArrow className="h-5 w-5" />
-        </motion.button>
+          <Link
+            href="/story"
+            className="flex items-center justify-center gap-2 bg-[#F1F1F1] px-4 py-3 text-xs uppercase tracking-wider text-primary transition-colors duration-300 hover:bg-primary hover:text-white md:px-8 lg:text-base xl:text-lg"
+          >
+            {translation[cont.btn]} <Icons.rightArrow className="h-5 w-5" />
+          </Link>
+        </motion.div>
       </motion.div>
     </AnimatePresence>
   )

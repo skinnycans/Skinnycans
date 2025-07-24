@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl'
 import React from 'react'
 
 import Moment1 from '@/assets/moments/moment_one.png'
-import Moment2 from '@/assets/moments/moment_two.png'
+import Moment2 from '@/assets/moments/moment_two_new.png'
 import Moment3 from '@/assets/moments/moment_three.png'
 import Moment4 from '@/assets/moments/moment_four.png'
 import Moment5 from '@/assets/moments/moment_five.png'

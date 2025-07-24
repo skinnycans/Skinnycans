@@ -59,9 +59,6 @@ export default function Collections() {
                 <h4 className="text-xl md:text-2xl lg:text-3xl">
                   {t(items.title)}
                 </h4>
-                <p className="text-xs md:text-sm lg:text-base">
-                  {t(items.year)}
-                </p>
                 <Link
                   href={`/product/${items.hash}`}
                   className="flex items-center justify-center gap-2 bg-[#F1F1F1] px-8 py-3 text-xs uppercase tracking-wider transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base"

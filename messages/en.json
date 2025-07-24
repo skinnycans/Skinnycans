@@ -2,7 +2,7 @@
   "Index": {
     "collection": "Collection",
     "collection_heading": "SKINNY SELECTION",
-    "collection_description": "A drink without sugar. Without bloat. Without consequences.",
+    "collection_description": "Smarter Drinking. With Skinny Consequences.",
     "soda-one": "Hard lemonade",
     "year": "2018",
     "year_two": "year",
@@ -18,7 +18,7 @@
     "waitlist_heading": "Become partner",
     "waitlist_description": "Join our mission to make alcohol healthier, one can at a time.",
     "join_waitlist": "JOIN THE WAITLIST",
-    "product_overview": "DRINK SMARTER with skinny consequences",
+    "product_overview": "SMARTER drinking  → with skinny consequences",
     "product_overview_call_to_action": "View Products",
     "product_overview_benefits": [
       "ORGANIC",
@@ -69,7 +69,7 @@
     "hard_lemonade_product": "Hard Lemonade",
     "hard_lemonade_product_intro_title": "Crisp. Vibrant. Fresh.",
     "hard_lemonade_product_intro_description": "Crafted with the world’s finest lemons — hand-picked from the sun-drenched groves of Sicily in southern Italy. A crisp, vibrant citrus profile with the natural sweetness and mouthfeel of real cane sugar — sweetened only with pure stevia leaf from South America and naturally fermented erythritol.",
-    "hard_lemonade_product_intro_blend": "Blended with high-quality organic vodka. Perfectly balanced — refreshingly light, yet indulgent.",
+    "hard_lemonade_product_intro_blend": "Blended with high-quality organic vodka.\nPerfectly balanced — refreshingly light, yet indulgent.",
     "hard_lemonade_product_highlights": [
       "4% alcohol",
       "Organic",
@@ -83,7 +83,7 @@
     "hard_berries_product": "hard berries",
     "hard_berries_product_intro_title": "Juicy. Bold. Sophisticated.",
     "hard_berries_product_intro_description": "An exclusive blend of berries — hand-selected from the sun-drenched fields of Barcelona to the rich, fertile soils of Sicily. A deep, juicy product profile with the natural sweetness and mouthfeel of real cane sugar — sweetened only with pure stevia leaf from South America and naturally fermented erythritol.",
-    "hard_berries_product_intro_blend": "Blended with high-quality organic vodka. Perfectly balanced — refreshingly light, yet indulgent.",
+    "hard_berries_product_intro_blend": "Blended with high-quality organic vodka.\nPerfectly balanced — refreshingly light, yet indulgent.",
     "hard_berries_product_highlights": [
       "4% alcohol",
       "Organic",
@@ -117,7 +117,7 @@
     "bbs_story": "Smarter drinking",
     "bbs_story_tagline": "more than you think.\nMost people see alcohol as the main problem. But it's often what comes with it - sugar, calories, overload - that does the real damage.",
     "partner_consequences": "Spread the Skinny Lifestyle",
-    "partner_story": "Become a partner",
+    "partner_story": "Become partner",
     "partner_story_tagline": "Join our mission to make alcohol healthier, one can at a time.",
     "wait": "Join the waiting list"
   },

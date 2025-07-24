@@ -15,7 +15,7 @@ export default function Page({
   unstable_setRequestLocale(locale)
 
   return (
-    <main>
+    <main className="w-screen overflow-x-hidden">
       <StoryBanner page="bbs" img={BBSBg} />
       <ScienceResearch />
       <NewNeed />
