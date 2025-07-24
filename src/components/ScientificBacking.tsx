@@ -30,7 +30,10 @@ export default function ScientificBacking() {
               {t('backing-1')}
             </p>
             <Link
-              href={''}
+              href={
+                'https://www.sciencedirect.com/science/article/abs/pii/S002231662216596X'
+              }
+              target="_blank"
               className="flex max-w-[270px] items-center justify-center gap-2 bg-primary px-8 py-3 text-xs uppercase tracking-wider text-white transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base"
             >
               {t('read')} <Icons.rightArrow className="h-5 w-5" />
@@ -50,7 +53,8 @@ export default function ScientificBacking() {
               {t('backing-2')}
             </p>
             <Link
-              href={''}
+              href={'https://pubmed.ncbi.nlm.nih.gov/30949667/'}
+              target="_blank"
               className="flex max-w-[270px] items-center justify-center gap-2 bg-primary px-8 py-3 text-xs uppercase tracking-wider text-white transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base"
             >
               {t('read')} <Icons.rightArrow className="h-5 w-5" />
@@ -70,7 +74,10 @@ export default function ScientificBacking() {
               {t('backing-3')}
             </p>
             <Link
-              href={''}
+              href={
+                'https://www.frontiersin.org/articles/10.3389/fimmu.2022.988481/full'
+              }
+              target="_blank"
               className="flex max-w-[270px] items-center justify-center gap-2 bg-primary px-8 py-3 text-xs uppercase tracking-wider text-white transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base"
             >
               {t('read')} <Icons.rightArrow className="h-5 w-5" />

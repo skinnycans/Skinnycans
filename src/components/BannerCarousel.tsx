@@ -7,10 +7,6 @@ import BannerBgThree from '@/assets/banner-bg-three.svg'
 
 import SlideOneFlowerLeft from '@/assets/slider-one-flower-left.svg'
 import SlideOneFlowerRight from '@/assets/slider-one-flower-right.svg'
-import SlideTwoFlowerLeft from '@/assets/slider-two-flower-left.svg'
-import SlideTwoFlowerRight from '@/assets/slider-two-flower-right.png'
-import SlideThreeFlowerLeft from '@/assets/slider-three-flower-left.svg'
-import SlideThreeFlowerRight from '@/assets/slider-three-flower-right.svg'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -30,8 +26,8 @@ export default function BannerCarousel(tran: SiteConfig) {
 
   const flowerSets = [
     { left: SlideOneFlowerLeft, right: SlideOneFlowerRight },
-    { left: SlideTwoFlowerLeft, right: SlideOneFlowerRight },
-    { left: SlideThreeFlowerLeft, right: SlideThreeFlowerRight },
+    { left: SlideOneFlowerLeft, right: SlideOneFlowerRight },
+    { left: SlideOneFlowerLeft, right: SlideOneFlowerRight },
   ]
 
   useEffect(() => {

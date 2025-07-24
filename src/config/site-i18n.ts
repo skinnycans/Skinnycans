@@ -55,7 +55,7 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/story',
       },
       {
-        title: 'Backed by science',
+        title: 'Smarter drinking',
         href: '/bbs',
       },
       {
@@ -137,7 +137,7 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/story',
       },
       {
-        title: 'Støttet av vitenskapen',
+        title: 'Smartere drikking',
         href: '/bbs',
       },
       {
@@ -219,7 +219,7 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/story',
       },
       {
-        title: 'Dieđalaš doarjja',
+        title: 'Čeahpibut juhkan',
         href: '/bbs',
       },
       {
