@@ -89,7 +89,7 @@ export default function ScientificBacking() {
         src={BackingBg}
         alt="Background"
         sizes="100%"
-        className="absolute bottom-24 z-0 h-auto max-h-[800px] w-full object-contain object-left xl:left-10"
+        className="absolute bottom-40 z-0 h-auto max-h-[800px] w-full object-contain object-left xl:left-10"
       />
     </div>
   )

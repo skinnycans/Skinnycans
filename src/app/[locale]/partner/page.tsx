@@ -1,5 +1,5 @@
 import React from 'react'
-import Invite from '@/assets/waitlist_bg.webp'
+import Invite from '@/assets/waitlist_bg.png'
 import BackingBg from '@/assets/backings_bg.svg'
 import { unstable_setRequestLocale } from 'next-intl/server'
 import Image from 'next/image'

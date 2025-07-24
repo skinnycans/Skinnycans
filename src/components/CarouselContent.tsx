@@ -56,7 +56,7 @@ export default function CarouselContent({
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.4 }}
-          className="font-varela text-xs text-white md:text-sm"
+          className="font-varela text-xs uppercase text-white md:text-sm"
         >
           {translation[cont.description]}
         </motion.p>

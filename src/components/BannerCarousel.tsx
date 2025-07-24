@@ -2,11 +2,9 @@
 import { AnimatePresence, motion } from 'framer-motion'
 
 import BannerBgOne from '@/assets/banner-bg-one.svg'
-import BannerBgTwo from '@/assets/banner-bg-two.svg'
-import BannerBgThree from '@/assets/banner-bg-three.svg'
 
 import SlideOneFlowerLeft from '@/assets/slider-one-flower-left.svg'
-import SlideOneFlowerRight from '@/assets/slider-one-flower-right.png'
+import SlideOneFlowerRight from '@/assets/Flower & Butterfly.png'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
