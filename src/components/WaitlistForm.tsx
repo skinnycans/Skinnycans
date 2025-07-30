@@ -113,7 +113,9 @@ export default function WaitlistForm({ config }: { config?: SiteConfig }) {
                           <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="Complaint">Complaint</SelectItem>
+                          <SelectItem value="Partner Inquiry">
+                            Partner Inquiry
+                          </SelectItem>
                           <SelectItem value="Product Information">
                             Product Information
                           </SelectItem>

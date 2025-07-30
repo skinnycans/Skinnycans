@@ -42,7 +42,7 @@ export default function Page({ params }: PageProps) {
                   src={slug === 'hard_lemonade' ? SodaOne : SodaTwo}
                   alt={t(`${slug}_product`)}
                   sizes="100%"
-                  className="mx-auto h-full min-h-52 w-auto"
+                  className="mx-auto h-full min-h-52 w-full object-cover object-center"
                 />
               </div>
               <div className="relative space-y-7 py-4 lg:col-span-3">

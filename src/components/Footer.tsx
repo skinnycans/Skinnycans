@@ -3,7 +3,7 @@ import { getSiteConfig } from '@/config/site-i18n'
 import React from 'react'
 import LanguageSelector from './ui/LanguageSelector'
 import { Locale } from '@/i18n'
-import { BsInstagram, BsTwitterX } from 'react-icons/bs'
+import { BsInstagram, BsLinkedin, BsTwitterX } from 'react-icons/bs'
 import { FaFacebookF } from 'react-icons/fa'
 import { AiOutlineYoutube } from 'react-icons/ai'
 import Link from 'next/link'
@@ -39,6 +39,13 @@ export default function Footer({ locale }: SiteHeaderProps) {
             </p>
             <div className="flex items-center justify-center gap-4">
               <Link
+                href={siteConfig.links.linkedin}
+                className="text-xl text-[#6E6E6E] transition-colors duration-200 ease-out hover:text-primary"
+                target="_blank"
+              >
+                <BsLinkedin />
+              </Link>
+              <Link
                 href={siteConfig.links.instagram}
                 className="text-xl text-[#6E6E6E] transition-colors duration-200 ease-out hover:text-primary"
                 target="_blank"
@@ -46,25 +53,11 @@ export default function Footer({ locale }: SiteHeaderProps) {
                 <BsInstagram />
               </Link>
               <Link
-                href={siteConfig.links.twitter}
-                className="text-xl text-[#6E6E6E] transition-colors duration-200 ease-out hover:text-primary"
-                target="_blank"
-              >
-                <BsTwitterX />
-              </Link>
-              <Link
                 href={siteConfig.links.facebook}
                 className="text-xl text-[#6E6E6E] transition-colors duration-200 ease-out hover:text-primary"
                 target="_blank"
               >
                 <FaFacebookF />
-              </Link>
-              <Link
-                href={siteConfig.links.youtube}
-                className="text-xl text-[#6E6E6E] transition-colors duration-200 ease-out hover:text-primary"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
               </Link>
             </div>
           </div>

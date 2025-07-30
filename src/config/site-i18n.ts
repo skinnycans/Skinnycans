@@ -6,10 +6,9 @@ export type SiteConfig = {
   mainNav: { title: string; href: string }[]
   footerNav: { title: string; href: string }[]
   links: {
-    twitter: string
     instagram: string
     facebook: string
-    youtube: string
+    linkedin: string
   }
   location: string
   follow: string
@@ -90,10 +89,10 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
       },
     ],
     links: {
-      twitter: ' ',
-      instagram: '',
-      facebook: '',
-      youtube: '',
+      linkedin: 'https://www.linkedin.com/company/skinny-cans/',
+      instagram:
+        'https://www.instagram.com/skinnycans?igsh=MXEzbHVpdDF5bjZ3OQ==',
+      facebook: 'https://www.facebook.com/share/172vTfzsHx/?mibextid=wwXIfr',
     },
     location: 'Store locator',
     footer: {
@@ -172,10 +171,10 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
       },
     ],
     links: {
-      twitter: ' ',
-      instagram: '',
-      facebook: '',
-      youtube: '',
+      linkedin: 'https://www.linkedin.com/company/skinny-cans/',
+      instagram:
+        'https://www.instagram.com/skinnycans?igsh=MXEzbHVpdDF5bjZ3OQ==',
+      facebook: 'https://www.facebook.com/share/172vTfzsHx/?mibextid=wwXIfr',
     },
     location: 'Butikksøker',
     footer: {
@@ -253,12 +252,11 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/waitlist',
       },
     ],
-
     links: {
-      twitter: ' ',
-      instagram: '',
-      facebook: '',
-      youtube: '',
+      linkedin: 'https://www.linkedin.com/company/skinny-cans/',
+      instagram:
+        'https://www.instagram.com/skinnycans?igsh=MXEzbHVpdDF5bjZ3OQ==',
+      facebook: 'https://www.facebook.com/share/172vTfzsHx/?mibextid=wwXIfr',
     },
     location: 'Gávpi gávdnan',
     footer: {
