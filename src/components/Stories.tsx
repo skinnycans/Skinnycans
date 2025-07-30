@@ -15,7 +15,7 @@ export default function Stories() {
   return (
     <div className="overflow-hidden">
       <div className="pb-10">
-        <div className="mx-auto max-w-5xl">
+        <div className="mx-auto max-w-6xl">
           {/* First story Grid */}
 
           <div className="container relative">
@@ -25,7 +25,7 @@ export default function Stories() {
               sizes="100%"
               className="absolute top-0 z-0 h-full w-auto object-cover opacity-30 md:h-auto md:w-full md:opacity-60 lg:opacity-85"
             />
-            <div className="relative z-10 grid items-center gap-8 pb-4 pt-24 md:grid-cols-2 md:gap-12 xl:gap-28">
+            <div className="relative z-10 grid items-center gap-8 pb-4 pt-24 md:grid-cols-2 md:gap-12 xl:gap-24">
               <div className="space-y-4 lg:space-y-6">
                 <p className="font-varela text-base text-[#5F5F5F] lg:text-lg">
                   {t('story_intro')}
@@ -61,7 +61,7 @@ export default function Stories() {
               sizes="100%"
               className="absolute bottom-0 right-0 z-0 h-full w-auto object-cover opacity-30 md:h-auto md:w-full md:opacity-60 lg:opacity-85"
             />
-            <div className="relative z-10 grid items-center gap-8 py-24 md:grid-cols-2 md:gap-12 xl:gap-28">
+            <div className="relative z-10 grid items-center gap-8 py-24 md:grid-cols-2 md:gap-12 xl:gap-24">
               <div className="order-2 md:order-1">
                 <Image
                   src={StoryImage2}
@@ -103,7 +103,7 @@ export default function Stories() {
               sizes="100%"
               className="absolute bottom-0 left-0 z-0 h-full w-auto object-cover opacity-30 md:h-auto md:w-full md:object-contain md:opacity-60 lg:h-full lg:w-auto lg:opacity-85"
             />
-            <div className="relative z-10 grid items-center gap-8 pb-24 md:grid-cols-2 md:gap-12 xl:gap-28">
+            <div className="relative z-10 grid items-center gap-8 pb-24 md:grid-cols-2 md:gap-12 xl:gap-24">
               <div className="space-y-4 lg:space-y-6">
                 <p className="font-varela text-base text-[#5F5F5F] lg:text-lg">
                   {t('story_naming')
@@ -169,7 +169,7 @@ export default function Stories() {
               sizes="100%"
               className="absolute -right-1/4 top-0 z-0 h-full w-auto object-cover opacity-30 md:h-auto md:w-full md:max-w-3xl md:opacity-60 lg:opacity-85"
             />
-            <div className="relative z-10 grid items-center gap-8 pb-20 pt-7 md:grid-cols-2 md:gap-12 xl:gap-28">
+            <div className="relative z-10 grid items-center gap-8 pb-20 pt-7 md:grid-cols-2 md:gap-12 xl:gap-24">
               <div className="order-2 md:order-1">
                 <Image
                   src={StoryImage4}
