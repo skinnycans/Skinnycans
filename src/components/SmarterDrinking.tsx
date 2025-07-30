@@ -87,7 +87,7 @@ export default function SmarterDrinking() {
             <h5 className="font-amiri text-2xl font-semibold">
               {t('result_heading')}
             </h5>
-            <p className="mt-1 font-varela md:text-lg">
+            <p className="mt-1 font-varela text-xs md:text-base lg:text-lg">
               {resulttext.split('\n').map((line, idx, arr) => (
                 <React.Fragment key={idx}>
                   {line}

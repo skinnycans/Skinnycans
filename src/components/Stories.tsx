@@ -183,7 +183,14 @@ export default function Stories() {
                   {t('story_today')}
                 </h4>
                 <p className="font-varela text-base text-[#5F5F5F] lg:text-lg">
-                  {t('story_tagline')}
+                  {t('story_tagline')
+                    .split('\n')
+                    .map((line, idx, arr) => (
+                      <React.Fragment key={idx}>
+                        {line}
+                        {idx !== arr.length - 1 && <br />}
+                      </React.Fragment>
+                    ))}
                 </p>
                 <h4 className="font-amiri text-xl text-primary lg:text-2xl">
                   {t('story_footer')

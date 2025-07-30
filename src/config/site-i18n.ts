@@ -55,7 +55,7 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/story',
       },
       {
-        title: 'Smarter drinking',
+        title: 'science',
         href: '/bbs',
       },
       {
@@ -77,7 +77,7 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
         href: '/story',
       },
       {
-        title: 'Smarter drinking',
+        title: 'science ',
         href: '/bbs',
       },
       {
@@ -104,9 +104,9 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     menu: 'menu',
     close: 'close',
     brewed: `Brewed\nby hand`,
-    backed: 'Backed by\n science ',
-    built: 'Built for\n health',
-    banner_description: 'Designed for the way we live today',
+    backed: 'GUIDED by\nscience',
+    built: 'Built for a\nsmarter lifestyle',
+    banner_description: 'Designed for the way we live Tomorrow',
     button_banner: 'Read Full Story',
     placeholder: 'Enter your email',
     submit: 'submit',

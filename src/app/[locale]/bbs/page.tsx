@@ -17,10 +17,10 @@ export default function Page({
   return (
     <main className="w-screen overflow-x-hidden">
       <StoryBanner page="bbs" img={BBSBg} />
-      <ScienceResearch />
-      <NewNeed />
       <ScientificBacking />
       <BBSBanner />
+      <ScienceResearch />
+      <NewNeed />
     </main>
   )
 }

@@ -18,35 +18,32 @@ export default function Events() {
         className="absolute right-0 top-0 z-0 "
       />
       <div className="container relative py-28 md:py-40">
-        <div className="relative mx-auto mb-5 max-w-[600px] text-center font-amiri text-2xl font-normal italic text-primary md:mb-10 md:text-4xl lg:mb-16 lg:max-w-[800px] lg:text-5xl">
+        <div className="relative mx-auto mb-5 max-w-[600px] text-center font-amiri text-xl font-normal italic text-primary md:mb-10 md:text-4xl lg:mb-16 lg:max-w-[800px] lg:text-5xl">
           <Image
             src={Apos}
             alt="Apostrophe"
             sizes="100%"
-            className="absolute -left-5 top-0 h-5 w-5 rotate-180 md:-left-7 md:h-8 md:w-8 lg:-left-10 lg:h-10 lg:w-10"
+            className="absolute -left-2 top-0 h-5 w-5 rotate-180 md:-left-7 md:h-8 md:w-8 lg:-left-10 lg:h-10 lg:w-10"
           />
-          <h3>{t('event_heading')}</h3>
+          <h3>
+            {t('event_heading')
+              .split('\n')
+              .map((line, idx, arr) => (
+                <React.Fragment key={idx}>
+                  {line}
+                  {idx !== arr.length - 1 && <br />}
+                </React.Fragment>
+              ))}
+          </h3>
           <Image
             src={Apos}
             alt="Apostrophe"
             sizes="100%"
-            className="absolute -right-5 bottom-0 h-5 w-5 md:-right-7 md:h-8 md:w-8 lg:-right-10 lg:h-10 lg:w-10"
+            className="absolute -right-2 bottom-0 h-5 w-5 md:-right-7 md:h-8 md:w-8 lg:-right-10 lg:h-10 lg:w-10"
           />
         </div>
         <div>
           <div className="relative h-full w-full p-3 md:p-6">
-            <div className="absolute bottom-5 left-5 z-10 md:bottom-10 md:left-10 ">
-              <h2 className="font-amiri text-sm uppercase text-white md:text-xl lg:text-2xl xl:text-3xl">
-                {t('event_overlay_text')
-                  .split('\n')
-                  .map((line, idx, arr) => (
-                    <React.Fragment key={idx}>
-                      {line}
-                      {idx !== arr.length - 1 && <br />}
-                    </React.Fragment>
-                  ))}
-              </h2>
-            </div>
             <div className="relative h-full w-full bg-white">
               <VideoPlayer
                 src="/Event.mp4"

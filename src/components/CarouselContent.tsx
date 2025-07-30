@@ -48,7 +48,7 @@ export default function CarouselContent({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="max-w-72 font-amiri text-2xl uppercase leading-6 text-white md:text-4xl"
+          className="font-amiri text-2xl uppercase leading-6 text-white md:text-4xl"
         >
           {renderWithBreaks(translation[cont.heading] as string)}
         </motion.h2>

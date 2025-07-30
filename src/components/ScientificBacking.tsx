@@ -4,18 +4,15 @@ import React from 'react'
 import Backing1 from '@/assets/backing_1.png'
 import Backing2 from '@/assets/backing_2.png'
 import Backing3 from '@/assets/backing_3.jpg'
-import BackingBg from '@/assets/backing.png'
+import BackingBg from '@/assets/backingb.png'
 import Link from 'next/link'
 import { Icons } from './icons'
 
 export default function ScientificBacking() {
   const t = useTranslations('BBS')
   return (
-    <div className="relative py-24">
+    <div className="relative overflow-hidden py-24">
       <div className="container relative z-10 mx-auto max-w-7xl space-y-14">
-        <h2 className="text-center font-amiri text-3xl uppercase text-primary md:text-4xl lg:text-5xl xl:text-6xl">
-          {t('scientificBacking')}
-        </h2>
         <div className="mx-auto grid w-fit max-w-6xl justify-center gap-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="space-y-4">
             <div className="max-h-60 overflow-hidden">
@@ -89,7 +86,7 @@ export default function ScientificBacking() {
         src={BackingBg}
         alt="Background"
         sizes="100%"
-        className="absolute bottom-40 z-0 h-auto max-h-[800px] w-full object-contain object-left xl:left-10"
+        className="absolute -bottom-20 z-0 h-auto max-h-[800px] w-full object-cover md:object-contain md:object-[150px]"
       />
     </div>
   )
