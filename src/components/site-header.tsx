@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import Logo from '@/assets/Logo.svg'
+import Logo from '@/assets/Logo.webp'
 import { getSiteConfig } from '@/config/site-i18n'
 import { Icons } from '@/components/icons'
 import { Locale } from '@/i18n'
