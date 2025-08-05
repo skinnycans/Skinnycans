@@ -13,17 +13,17 @@ export default function ScientificBacking() {
   return (
     <div className="relative overflow-hidden py-24">
       <div className="container relative z-10 mx-auto max-w-7xl space-y-14">
-        <div className="mx-auto grid w-fit max-w-6xl justify-center gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid w-fit max-w-7xl justify-center gap-10 text-center  md:grid-cols-2 md:gap-24 lg:grid-cols-3">
           <div className="space-y-4">
             <div className="max-h-60 overflow-hidden">
               <Image
                 src={Backing1}
                 alt="Study Image"
                 sizes="100%"
-                className="h-[180px] w-auto object-contain object-center md:ml-4 lg:ml-7"
+                className="mx-auto h-[180px] w-auto object-contain object-center"
               />
             </div>
-            <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
+            <p className="max-w-[450px] text-pretty font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
               {t('backing-1')}
             </p>
             <Link
@@ -31,7 +31,7 @@ export default function ScientificBacking() {
                 'https://www.sciencedirect.com/science/article/abs/pii/S002231662216596X'
               }
               target="_blank"
-              className="flex max-w-[270px] items-center justify-center gap-2 bg-primary px-8 py-3 text-xs uppercase tracking-wider text-white transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base"
+              className="mx-auto flex max-w-[270px] items-center justify-center gap-2 bg-primary px-8 py-3 text-xs uppercase tracking-wider text-white transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base"
             >
               {t('read')} <Icons.rightArrow className="h-5 w-5" />
             </Link>
@@ -43,16 +43,16 @@ export default function ScientificBacking() {
                 src={Backing2}
                 alt="Study Image"
                 sizes="100%"
-                className="h-[180px] w-auto object-contain object-center"
+                className="mx-auto h-[180px] w-auto object-contain object-center"
               />
             </div>
-            <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
+            <p className="max-w-[450px] text-pretty font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
               {t('backing-2')}
             </p>
             <Link
               href={'https://pubmed.ncbi.nlm.nih.gov/30949667/'}
               target="_blank"
-              className="flex max-w-[270px] items-center justify-center gap-2 bg-primary px-8 py-3 text-xs uppercase tracking-wider text-white transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base"
+              className="mx-auto flex max-w-[270px] items-center justify-center gap-2 bg-primary px-8 py-3 text-xs uppercase tracking-wider text-white transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base"
             >
               {t('read')} <Icons.rightArrow className="h-5 w-5" />
             </Link>
@@ -64,10 +64,10 @@ export default function ScientificBacking() {
                 src={Backing3}
                 alt="Study Image"
                 sizes="100%"
-                className="h-[180px] w-auto object-contain object-center md:ml-4 lg:ml-7"
+                className="mx-auto h-[180px] w-auto object-contain object-center"
               />
             </div>
-            <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
+            <p className="max-w-[450px] text-pretty font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
               {t('backing-3')}
             </p>
             <Link
@@ -75,7 +75,7 @@ export default function ScientificBacking() {
                 'https://www.frontiersin.org/articles/10.3389/fimmu.2022.988481/full'
               }
               target="_blank"
-              className="flex max-w-[270px] items-center justify-center gap-2 bg-primary px-8 py-3 text-xs uppercase tracking-wider text-white transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base"
+              className="mx-auto flex max-w-[270px] items-center justify-center gap-2 bg-primary px-8 py-3 text-xs uppercase tracking-wider text-white transition-colors duration-300 hover:bg-[#96A69C] md:text-sm lg:text-base"
             >
               {t('read')} <Icons.rightArrow className="h-5 w-5" />
             </Link>

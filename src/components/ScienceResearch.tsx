@@ -36,13 +36,8 @@ export default function ScienceResearch() {
           sizes="100%"
           className="absolute -bottom-1/4 z-0 h-full w-full max-w-2xl object-contain object-bottom"
         />
-        <Image
-          src={BGImage}
-          alt="BG"
-          sizes="100%"
-          className="absolute right-1/4 top-0 z-0 h-full w-full max-w-4xl object-right-top md:object-contain"
-        />
-        <div className="relative z-10 mx-auto grid w-fit max-w-6xl justify-center gap-10 pt-24 md:grid-cols-2 lg:gap-y-16 xl:gap-x-32">
+
+        <div className="relative z-10 mx-auto grid w-fit max-w-6xl justify-center gap-16 pt-24 md:grid-cols-2 lg:gap-y-16 xl:gap-x-32">
           {gridInfo.map((items, index) => (
             <div key={index} className="space-y-4">
               <h3

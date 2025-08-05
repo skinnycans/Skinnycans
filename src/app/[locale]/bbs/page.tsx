@@ -18,7 +18,7 @@ export default function Page({
     <main className="w-screen overflow-x-hidden">
       <StoryBanner page="bbs" img={BBSBg} />
       <ScientificBacking />
-      <BBSBanner />
+      {/* <BBSBanner /> */}
       <ScienceResearch />
       <NewNeed />
     </main>

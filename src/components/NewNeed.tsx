@@ -16,7 +16,12 @@ export default function NewNeed() {
             <h3 className="font-amiri text-3xl text-primary lg:text-4xl">
               {t('whySkinnyTitle')}
             </h3>
-            <p className="max-w-[450px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
+
+            <p className="font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
+              {t('whySkinnysubTitle')}
+            </p>
+
+            <p className="max-w-[400px] font-varela text-sm text-[#5F5F5F] md:text-base lg:text-lg">
               {t('whySkinnyDescription')}
             </p>
             {Benefits.map((items, idz) => (

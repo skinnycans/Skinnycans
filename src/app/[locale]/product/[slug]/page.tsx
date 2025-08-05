@@ -37,12 +37,12 @@ export default function Page({ params }: PageProps) {
           </section>
           <section className="relative">
             <div className="relative z-10 mx-auto grid max-w-5xl items-center justify-center gap-7 lg:grid-cols-5">
-              <div className="h-full  lg:col-span-2">
+              <div className="flex h-full items-center justify-center lg:col-span-2">
                 <Image
                   src={slug === 'hard_lemonade' ? SodaOne : SodaTwo}
                   alt={t(`${slug}_product`)}
                   sizes="100%"
-                  className="mx-auto h-full min-h-52 w-auto "
+                  className="mx-auto h-full max-h-[750px] min-h-52 w-auto "
                 />
               </div>
               <div className="relative space-y-7 py-4 lg:col-span-3">
