@@ -13,7 +13,7 @@ export default function ScientificBacking() {
   return (
     <div className="relative overflow-hidden py-24">
       <div className="container relative z-10 mx-auto max-w-7xl space-y-14">
-        <div className="mx-auto grid w-fit max-w-7xl justify-center gap-10 text-center  md:grid-cols-2 md:gap-24 lg:grid-cols-3">
+        <div className="mx-auto grid w-fit max-w-7xl justify-center gap-16 text-center  md:grid-cols-2 md:gap-24 lg:grid-cols-3">
           <div className="space-y-4">
             <div className="max-h-60 overflow-hidden">
               <Image
@@ -86,7 +86,7 @@ export default function ScientificBacking() {
         src={BackingBg}
         alt="Background"
         sizes="100%"
-        className="absolute -bottom-20 z-0 h-auto max-h-[800px] w-full object-cover md:object-contain md:object-[150px]"
+        className="absolute bottom-0 z-0 h-auto max-h-[800px] w-full object-cover md:-bottom-20 md:object-contain md:object-[150px]"
       />
     </div>
   )
