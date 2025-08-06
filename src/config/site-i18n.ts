@@ -106,7 +106,7 @@ const siteConfigBase: Record<Locale, SiteConfig> = {
     backed: 'GUIDED by\nscience',
     built: 'Built for a\nsmarter lifestyle',
     banner_description: 'Designed for the way we live Tomorrow',
-    button_banner: 'Read Full Story',
+    button_banner: 'Read the Full Story',
     placeholder: 'Enter your email',
     submit: 'submit',
     request: 'submit a request',

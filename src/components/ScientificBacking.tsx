@@ -13,7 +13,7 @@ export default function ScientificBacking() {
   return (
     <div className="relative overflow-hidden py-24">
       <div className="container relative z-10 mx-auto max-w-7xl space-y-14">
-        <div className="mx-auto grid w-fit max-w-7xl justify-center gap-16 text-center  md:grid-cols-2 md:gap-24 lg:grid-cols-3">
+        <div className="mx-auto grid w-fit max-w-7xl justify-center gap-24 text-center  md:grid-cols-2 lg:grid-cols-3">
           <div className="space-y-4">
             <div className="max-h-60 overflow-hidden">
               <Image
